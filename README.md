@@ -1,7 +1,7 @@
 ## ai-desktop-agent
 面向真实工程场景的 AI 桌面智能系统,以多轮 Coding Agent 为核心,实现任务理解、代码修改、测试迭代与批量评测的全流程自动化,并集成 RAG 文档问答与技能系统,交付 Web/Electron 双端。
 
-##核心功能
+#核心功能
 1. Coding Agent
 • 多轮任务执行与错误恢复，Checkpoint 检查点回滚机制，保障代码修改安全
 • 内置 8 大工具：读写文件、执行命令、创建/回滚检查点、运行测试、查看 Git 差异等
@@ -24,7 +24,7 @@
 • 子进程自动生成并执行 Python 代码，完成指标计算、数据处理、统计分析与可视化
 • 返回代码、执行日志、图表与中文解释
 
-##快速开始
+#快速开始
 模型与依赖资源体积较大，不在 Git 仓库内，请通过网盘下载完整包（见下方「资源下载」）。
 Web 版
 Copy code to clipboard
@@ -51,12 +51,12 @@ desktop/dist/win-unpacked/AI桌面端系统.exe
 模型配置
 在 UI「设置」页或编辑 backend/model_config.json，配置 API 提供商（DeepSeek / OpenAI / 自定义）、API Key、模型名与参数。该文件含个人 API Key，已被 Git 忽略，不会上传。
 
-##文档
+#文档
 • AI桌面端系统操作手册.md — 详细操作手册
 • AGENTS.md — 系统架构与开发说明
 • Qwen2-VL-2B-TableNet-PubTabNet-smallx2-v1-部署操作手册.md — 表格识别模型部署说明
 
-## 资源下载
+# 资源下载
 完整打包程序（模型、依赖资源）不在Git仓库内，请通过网盘获取：
 - 链接：https://pan.baidu.com/s/1pnvzwKTko5lpL0FzjkoRDA
 - 提取码：`7r64`
