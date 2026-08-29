@@ -25,6 +25,7 @@
 • 表格结构识别：接入 Qwen2-VL-TableNet 模型，从 PDF / 图片中提取表格并并入 RAG
 
 • LLM Wiki 知识库
+
 3. 技能系统（Skill System）
 • 内置 5 个技能：Markdown 报告、Word 实验报告、在线/离线 PPT、Excel 转 PPT
 
