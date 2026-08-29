@@ -1,4 +1,4 @@
-<img width="599" height="265" alt="EO }VUP`~Z2HI@HH02QD(HQ" src="https://github.com/user-attachments/assets/39fcd513-0059-466d-aa1c-b72a9a4d5b3d" />## ai-desktop-agent
+## ai-desktop-agent
 面向真实工程场景的 AI 桌面智能系统,以多轮 Coding Agent 为核心,实现任务理解、代码修改、测试迭代与批量评测的全流程自动化,并集成 RAG 文档问答与技能系统,交付 Web/Electron 双端。
 
 ##核心功能
