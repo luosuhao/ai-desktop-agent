@@ -1,0 +1,453 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-18T10:17:13.711775+00:00",
+  "sourcePlan": "ppt-template-generator\\projects\\intake_20260706\\visual-asset-plan.json",
+  "sourceManifest": "ppt-template-generator\\projects\\intake_20260706\\excel-content-manifest.json",
+  "outputDir": "ppt-template-generator\\projects\\intake_20260706\\python_table",
+  "assetCount": 32,
+  "tableAssetCount": 23,
+  "assets": [
+    {
+      "sourceBlockId": "组合业绩情况_block_08",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合业绩情况_block_08_trend_chart.png",
+          "relativePath": "python_table/组合业绩情况_block_08_trend_chart.png",
+          "renderType": "python_table_visual",
+          "visualType": "trend_chart",
+          "route": "chart_route",
+          "chartClass": "trend_chart"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合业绩情况_block_09",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合业绩情况_block_09_trend_chart.png",
+          "relativePath": "python_table/组合业绩情况_block_09_trend_chart.png",
+          "renderType": "python_table_visual",
+          "visualType": "trend_chart",
+          "route": "chart_route",
+          "chartClass": "trend_chart"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合业绩情况_block_10",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合业绩情况_block_10_trend_chart.png",
+          "relativePath": "python_table/组合业绩情况_block_10_trend_chart.png",
+          "renderType": "python_table_visual",
+          "visualType": "trend_chart",
+          "route": "chart_route",
+          "chartClass": "trend_chart"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合业绩情况_block_11",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合业绩情况_block_11_trend_chart.png",
+          "relativePath": "python_table/组合业绩情况_block_11_trend_chart.png",
+          "renderType": "python_table_visual",
+          "visualType": "trend_chart",
+          "route": "chart_route",
+          "chartClass": "trend_chart"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合业绩归因_block_03",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合业绩归因_block_03_composition_chart.png",
+          "relativePath": "python_table/组合业绩归因_block_03_composition_chart.png",
+          "renderType": "python_table_visual",
+          "visualType": "composition_chart",
+          "route": "chart_route",
+          "chartClass": "composition_chart"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合业绩归因_block_04",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合业绩归因_block_04_composition_chart.png",
+          "relativePath": "python_table/组合业绩归因_block_04_composition_chart.png",
+          "renderType": "python_table_visual",
+          "visualType": "composition_chart",
+          "route": "chart_route",
+          "chartClass": "composition_chart"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合资产配置_block_07",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合资产配置_block_07_styled_table_image.png",
+          "relativePath": "python_table/组合资产配置_block_07_styled_table_image.png",
+          "renderType": "python_table_visual",
+          "visualType": "styled_table_image",
+          "route": "small_table_route",
+          "chartClass": null
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "今年以来资产配置回顾_block_03",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\picture-assets\\今年以来资产配置回顾_image_01.png",
+          "relativePath": "picture-assets/今年以来资产配置回顾_image_01.png",
+          "renderType": "source_image",
+          "visualType": "source_image",
+          "route": "source_image_route",
+          "chartClass": null,
+          "imageId": "今年以来资产配置回顾_image_01",
+          "anchor": "B9:G12",
+          "captionText": "持仓变动，穿透来看\n● 组合初始权益类资产仓位约15.65%，报告期间在【15.65%，19.30%】波动，期末收于17.05%\n● 组合初始市值类固收资产仓位约59.20%，报告期间在【55.99%，63.38%】波动，期末收于55.99%\n● 组合初始成本类固收资产仓位约29.51%，报告期间在【27.73%，30.47%】波动，期末收于28.09%\n● 组合初始流动性资产资产仓位约7.87%，报告期间在【5.42%，9.95%】波动，期末收于7.90%"
+        },
+        {
+          "page": 2,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\picture-assets\\今年以来资产配置回顾_image_02.png",
+          "relativePath": "picture-assets/今年以来资产配置回顾_image_02.png",
+          "renderType": "source_image",
+          "visualType": "source_image",
+          "route": "source_image_route",
+          "chartClass": null,
+          "imageId": "今年以来资产配置回顾_image_02",
+          "anchor": "B13:H16",
+          "captionText": ""
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合固收投资回顾_block_03",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_01.png",
+          "relativePath": "picture-assets/组合固收投资回顾_image_01.png",
+          "renderType": "source_image",
+          "visualType": "source_image",
+          "route": "source_image_route",
+          "chartClass": null,
+          "imageId": "组合固收投资回顾_image_01",
+          "anchor": "B8:J10",
+          "captionText": "● 组合穿透后持仓债券久期为1.45年，穿透层面下杠杆比率109.05%。\n● 穿透后，成本计价类资产方面，主要以私募债（20.94%）和PPN（5.07%）为主\n● 穿透后，市值计价类资产方面，主要以中期票据（22.65%）和公司债（16.38%）为主\n● 固收方面，组合以直接投资与配置国泰内部的国泰固收型和混合型养老金作为主要投资方式。产品期末主要持有国泰金色年华混合型养老金产品、国泰金色年华固定收益型养老金产品、国泰金色年华信托型养老金产品2期、国泰金色年华信托型养老金产品1期，占比合计14.77%，较期初占比下降1.96%，持仓产品今年同期收益率分别为3.53%、1.38%、1.09%、.98%，全市场排名11/135、85/545、256/545、378/545，年化收益率分别为12.99%、5.63%、4.48%、4.06%。直接持仓主要包括中期票据、公司债、私募债。主要增持私募债券，减持PPN；产品配置方面，无养老金增持，减持国泰金色年华固定收益型养老金产品。"
+        },
+        {
+          "page": 2,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_02.png",
+          "relativePath": "picture-assets/组合固收投资回顾_image_02.png",
+          "renderType": "source_image",
+          "visualType": "source_image",
+          "route": "source_image_route",
+          "chartClass": null,
+          "imageId": "组合固收投资回顾_image_02",
+          "anchor": "B104:J106",
+          "captionText": "2、固定投资回顾—久期及YTM\n■ 截至2023年03月31日，固收资产YTM为3.59%，其中市值类YTM3.51%，成本类YTM3.73%。久期为1.45，其中市值类久期1.34，成本类久期1.68。"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合固收投资回顾_block_11",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合固收投资回顾_block_11_styled_table_image.png",
+          "relativePath": "python_table/组合固收投资回顾_block_11_styled_table_image.png",
+          "renderType": "python_table_visual",
+          "visualType": "styled_table_image",
+          "route": "small_table_route",
+          "chartClass": null
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合固收投资回顾_block_13",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合固收投资回顾_block_13_category_chart.png",
+          "relativePath": "python_table/组合固收投资回顾_block_13_category_chart.png",
+          "renderType": "python_table_visual",
+          "visualType": "category_chart",
+          "route": "chart_route",
+          "chartClass": "category_chart"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合固收投资回顾_block_17",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合固收投资回顾_block_17_category_chart.png",
+          "relativePath": "python_table/组合固收投资回顾_block_17_category_chart.png",
+          "renderType": "python_table_visual",
+          "visualType": "category_chart",
+          "route": "chart_route",
+          "chartClass": "category_chart"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合权益投资回顾_block_03",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_01.png",
+          "relativePath": "picture-assets/组合权益投资回顾_image_01.png",
+          "renderType": "source_image",
+          "visualType": "source_image",
+          "route": "source_image_route",
+          "chartClass": null,
+          "imageId": "组合权益投资回顾_image_01",
+          "anchor": "B7:N10",
+          "captionText": "● 权益方面，组合投资以（直接持股为主，养老金产品配置作为补充）。期末产品持仓占比1.58%，直接持股占比12.45%。\n● 养老金产品方面，组合主要持有：国泰佳泰股票专项型养老金产品，今年同期收益率分别为9.77%，全市场排名14/195。\n● 组合穿透后主要持有计算机、电子、基础化工、医药生物、食品饮料，增持电子、银行、医药生物，减持石油石化、建筑装饰、机械设备，正贡献主要来自于计算机、电子、医药生物，负贡献主要来自于银行、基础化工、家用电器。"
+        },
+        {
+          "page": 2,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_02.png",
+          "relativePath": "picture-assets/组合权益投资回顾_image_02.png",
+          "renderType": "source_image",
+          "visualType": "source_image",
+          "route": "source_image_route",
+          "chartClass": null,
+          "imageId": "组合权益投资回顾_image_02",
+          "anchor": "B11:N14",
+          "captionText": ""
+        },
+        {
+          "page": 3,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_03.png",
+          "relativePath": "picture-assets/组合权益投资回顾_image_03.png",
+          "renderType": "source_image",
+          "visualType": "source_image",
+          "route": "source_image_route",
+          "chartClass": null,
+          "imageId": "组合权益投资回顾_image_03",
+          "anchor": "B108:U111",
+          "captionText": "备注：仓位为占资产净值比例。\n备注：仓位为占资产净值比例。"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合权益投资回顾_block_06",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合权益投资回顾_block_06_category_chart.png",
+          "relativePath": "python_table/组合权益投资回顾_block_06_category_chart.png",
+          "renderType": "python_table_visual",
+          "visualType": "category_chart",
+          "route": "chart_route",
+          "chartClass": "category_chart"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合权益投资回顾_block_12",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_09.png",
+          "relativePath": "picture-assets/组合权益投资回顾_image_09.png",
+          "renderType": "source_image",
+          "visualType": "source_image",
+          "route": "source_image_route",
+          "chartClass": null,
+          "imageId": "组合权益投资回顾_image_09",
+          "anchor": "B155:E163",
+          "captionText": ""
+        },
+        {
+          "page": 2,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_10.png",
+          "relativePath": "picture-assets/组合权益投资回顾_image_10.png",
+          "renderType": "source_image",
+          "visualType": "source_image",
+          "route": "source_image_route",
+          "chartClass": null,
+          "imageId": "组合权益投资回顾_image_10",
+          "anchor": "M155:P163",
+          "captionText": ""
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合权益投资回顾_block_13",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_10.png",
+          "relativePath": "picture-assets/组合权益投资回顾_image_10.png",
+          "renderType": "source_image",
+          "visualType": "source_image",
+          "route": "source_image_route",
+          "chartClass": null,
+          "imageId": "组合权益投资回顾_image_10",
+          "anchor": "M155:P163",
+          "captionText": ""
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合权益投资回顾_block_14",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合权益投资回顾_block_14_styled_table_image.png",
+          "relativePath": "python_table/组合权益投资回顾_block_14_styled_table_image.png",
+          "renderType": "python_table_visual",
+          "visualType": "styled_table_image",
+          "route": "small_table_route",
+          "chartClass": null
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合权益投资回顾_block_16",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合权益投资回顾_block_16_composition_chart_p01.png",
+          "relativePath": "python_table/组合权益投资回顾_block_16_composition_chart_p01.png",
+          "renderType": "python_table_visual",
+          "visualType": "composition_chart",
+          "route": "chart_route",
+          "chartClass": "composition_chart"
+        },
+        {
+          "page": 2,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合权益投资回顾_block_16_composition_chart_p02.png",
+          "relativePath": "python_table/组合权益投资回顾_block_16_composition_chart_p02.png",
+          "renderType": "python_table_visual",
+          "visualType": "composition_chart",
+          "route": "chart_route",
+          "chartClass": "composition_chart"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "市场回顾_block_02",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_01.png",
+          "relativePath": "picture-assets/市场回顾_image_01.png",
+          "renderType": "source_image",
+          "visualType": "source_image",
+          "route": "source_image_route",
+          "chartClass": null,
+          "imageId": "市场回顾_image_01",
+          "anchor": "A6:J8",
+          "captionText": "图：国内外股票涨跌幅"
+        },
+        {
+          "page": 2,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_02.png",
+          "relativePath": "picture-assets/市场回顾_image_02.png",
+          "renderType": "source_image",
+          "visualType": "source_image",
+          "route": "source_image_route",
+          "chartClass": null,
+          "imageId": "市场回顾_image_02",
+          "anchor": "A10:J12",
+          "captionText": "图：主要宽基指数区间涨跌幅曲线图"
+        },
+        {
+          "page": 3,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_03.png",
+          "relativePath": "picture-assets/市场回顾_image_03.png",
+          "renderType": "source_image",
+          "visualType": "source_image",
+          "route": "source_image_route",
+          "chartClass": null,
+          "imageId": "市场回顾_image_03",
+          "anchor": "A14:J16",
+          "captionText": "图：区间的板块行业涨跌幅柱状图"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "养老金产品时序图_数据_block_01",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\养老金产品时序图_数据_block_01_trend_chart.png",
+          "relativePath": "python_table/养老金产品时序图_数据_block_01_trend_chart.png",
+          "renderType": "python_table_visual",
+          "visualType": "trend_chart",
+          "route": "chart_route",
+          "chartClass": "trend_chart"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "组合可转债仓位变动情况_穿透后_数据_block_01",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\组合可转债仓位变动情况_穿透后_数据_block_01_trend_chart.png",
+          "relativePath": "python_table/组合可转债仓位变动情况_穿透后_数据_block_01_trend_chart.png",
+          "renderType": "python_table_visual",
+          "visualType": "trend_chart",
+          "route": "chart_route",
+          "chartClass": "trend_chart"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "可转债正股行业时序图_不穿透_数据_block_01",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\可转债正股行业时序图_不穿透_数据_block_01_category_chart.png",
+          "relativePath": "python_table/可转债正股行业时序图_不穿透_数据_block_01_category_chart.png",
+          "renderType": "python_table_visual",
+          "visualType": "category_chart",
+          "route": "chart_route",
+          "chartClass": "category_chart"
+        }
+      ]
+    },
+    {
+      "sourceBlockId": "可转债正股行业时序图_穿透_数据_block_01",
+      "assets": [
+        {
+          "page": 1,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\可转债正股行业时序图_穿透_数据_block_01_category_chart_p01.png",
+          "relativePath": "python_table/可转债正股行业时序图_穿透_数据_block_01_category_chart_p01.png",
+          "renderType": "python_table_visual",
+          "visualType": "category_chart",
+          "route": "chart_route",
+          "chartClass": "category_chart"
+        },
+        {
+          "page": 2,
+          "path": "ppt-template-generator\\projects\\intake_20260706\\python_table\\可转债正股行业时序图_穿透_数据_block_01_category_chart_p02.png",
+          "relativePath": "python_table/可转债正股行业时序图_穿透_数据_block_01_category_chart_p02.png",
+          "renderType": "python_table_visual",
+          "visualType": "category_chart",
+          "route": "chart_route",
+          "chartClass": "category_chart"
+        }
+      ]
+    }
+  ]
+}

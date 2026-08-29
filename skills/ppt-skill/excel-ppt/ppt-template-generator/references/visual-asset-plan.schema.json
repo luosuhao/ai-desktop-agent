@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ppt-skill.local/schemas/visual-asset-plan.schema.json",
+  "title": "PPT Template Generator Visual Asset Plan",
+  "type": "object",
+  "required": ["version", "generatedAt", "sourceManifest", "summary", "tableVisualPlans", "imageVisualPlans"],
+  "properties": {
+    "version": {"type": "integer"},
+    "generatedAt": {"type": "string"},
+    "sourceManifest": {"type": "string"},
+    "planner": {"type": "object"},
+    "styleProfile": {"type": "object"},
+    "summary": {
+      "type": "object",
+      "properties": {
+        "tablePlanCount": {"type": "integer"},
+        "imagePlanCount": {"type": "integer"},
+        "visualTypeCounts": {"type": "object"},
+        "routeCounts": {"type": "object"},
+        "chartClassCounts": {"type": "object"},
+        "needsRenderingCount": {"type": "integer"}
+      },
+      "additionalProperties": true
+    },
+    "tableVisualPlans": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/tableVisualPlan"}
+    },
+    "imageVisualPlans": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/imageVisualPlan"}
+    }
+  },
+  "$defs": {
+    "tableVisualPlan": {
+      "type": "object",
+      "required": ["assetId", "assetKind", "sourceSheet", "sourceRange", "cleaning", "profile", "recommendedVisual", "styleSource"],
+      "properties": {
+        "assetId": {"type": "string"},
+        "assetKind": {"const": "table_asset"},
+        "sourceGroupId": {"type": "string"},
+        "sourceSheet": {"type": "string"},
+        "sourceRange": {"type": "string"},
+        "relativeDataPath": {"type": "string"},
+        "relativeTableWorkbookPath": {"type": "string"},
+        "captionText": {"type": "string"},
+        "captionRows": {"type": "array"},
+        "relatedImages": {"type": "array"},
+        "cleaning": {
+          "type": "object",
+          "properties": {
+            "header": {"type": "object"},
+            "excludedRowsBeforeData": {"type": "array"},
+            "dataStartCsvRowIndex": {"type": "integer"},
+            "dataRowCount": {"type": "integer"},
+            "dataColumnCount": {"type": "integer"},
+            "fullDataPreservedIn": {"type": "string"}
+          },
+          "additionalProperties": true
+        },
+        "profile": {"type": "object"},
+        "recommendedVisual": {
+          "type": "object",
+          "required": ["visualType", "confidence", "renderEngine"],
+          "properties": {
+            "route": {
+              "type": "string",
+              "enum": ["source_image_route", "small_table_route", "chart_route"]
+            },
+            "chartClass": {
+              "type": ["string", "null"],
+              "enum": ["trend_chart", "category_chart", "composition_chart", "table_like_or_other", null]
+            },
+            "visualType": {
+              "type": "string",
+              "enum": ["trend_chart", "category_chart", "composition_chart", "styled_table_image", "source_image"]
+            },
+            "confidence": {"type": "number"},
+            "reasons": {"type": "array", "items": {"type": "string"}},
+            "renderEngine": {"type": "string"},
+            "fallback": {"type": "string"},
+            "pagination": {"type": "object"}
+          },
+          "additionalProperties": true
+        },
+        "styleSource": {"type": "object"},
+        "manualOverride": {}
+      },
+      "additionalProperties": true
+    },
+    "imageVisualPlan": {
+      "type": "object",
+      "required": ["assetId", "assetKind", "recommendedVisual"],
+      "properties": {
+        "assetId": {"type": "string"},
+        "assetKind": {"const": "image_asset"},
+        "sourceGroupId": {"type": "string"},
+        "sourceSheet": {"type": "string"},
+        "anchor": {"type": "string"},
+        "relativePath": {"type": "string"},
+        "captionText": {"type": "string"},
+        "nearbyTextBlocks": {"type": "array"},
+        "relatedCellBlocks": {"type": "array"},
+        "recommendedVisual": {"type": "object"},
+        "styleSource": {"type": "object"},
+        "manualOverride": {}
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

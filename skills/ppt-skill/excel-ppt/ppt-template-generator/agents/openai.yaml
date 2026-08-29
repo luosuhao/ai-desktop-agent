@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Template Generator"
+  short_description: "Parse Excel, render visuals, and plan PPT slides."
+  default_prompt: "Parse this Excel workbook into an editable content manifest, render PPT-style table/chart visual assets, and create a slide-plan using the bundled template registry."

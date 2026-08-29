@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect width="1280" height="720" fill="#FFFFFF"/></g>
+  <g id="header"><rect x="72" y="48" width="400" height="4" fill="#9E0116"/><image href="brand_logo_header.png" x="1080" y="42" width="126" height="35" preserveAspectRatio="xMidYMid meet"/></g>
+  <g id="partner-title"><text x="640" y="152" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="32" font-weight="bold" fill="#262626">{{PAGE_TITLE}}</text><text x="640" y="192" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#706F71">{{KEY_MESSAGE}}</text></g>
+  <g id="partner-logo-1"><rect x="172" y="246" width="360" height="140" rx="8" fill="#F2F2F2" stroke="#D9D9D9" stroke-width="1" stroke-dasharray="4,4"/><text x="352" y="324" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="24" font-weight="bold" fill="#9E0116">{{ITEM_1_TITLE}}</text></g>
+  <g id="partner-link"><line x1="570" y1="316" x2="710" y2="316" stroke="#A7A7A7" stroke-width="2"/><line x1="640" y1="280" x2="640" y2="352" stroke="#A7A7A7" stroke-width="2"/></g>
+  <g id="partner-logo-2"><rect x="748" y="246" width="360" height="140" rx="8" fill="#F2F2F2" stroke="#D9D9D9" stroke-width="1" stroke-dasharray="4,4"/><text x="928" y="324" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="24" font-weight="bold" fill="#5D070C">{{ITEM_2_TITLE}}</text></g>
+  <g id="partner-content"><rect x="172" y="426" width="936" height="150" fill="#FFFFFF" stroke="#9E0116" stroke-width="1"/><text x="202" y="472" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#262626">{{CONTENT_AREA}}</text><text x="202" y="528" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#706F71">{{ITEM_1_BODY}}</text></g>
+  <g id="footer"><image href="brand_logo_footer.png" x="72" y="665" width="75" height="21" preserveAspectRatio="xMidYMid meet"/><text x="1208" y="681" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#9E0116">{{PAGE_NUM}}</text></g>
+</svg>

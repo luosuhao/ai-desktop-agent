@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/></g>
+  <g id="toc-compact-header">
+    <rect x="72" y="48" width="400" height="4" fill="#9E0116"/>
+    <text x="72" y="100" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="bold" fill="#262626">{{PAGE_TITLE}}</text>
+    <image href="brand_logo_header.png" x="1080" y="42" width="126" height="35" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="toc-compact-visual">
+    <rect x="72" y="150" width="260" height="120" fill="#9E0116"/>
+    <rect x="332" y="150" width="876" height="120" fill="#E4E6EA"/>
+    <text x="104" y="220" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">CONTENTS</text>
+    <text x="372" y="215" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#706F71">{{KEY_MESSAGE}}</text>
+  </g>
+  <g id="toc-compact-list">
+    <text x="372" y="320" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#262626">
+      <tspan x="372" dy="0">01　{{TOC_ITEM_1_TITLE}}</tspan>
+      <tspan x="372" dy="48">02　{{TOC_ITEM_2_TITLE}}</tspan>
+      <tspan x="372" dy="48">03　{{TOC_ITEM_3_TITLE}}</tspan>
+      <tspan x="372" dy="48">04　{{TOC_ITEM_4_TITLE}}</tspan>
+      <tspan x="372" dy="48">05　{{TOC_ITEM_5_TITLE}}</tspan>
+      <tspan x="372" dy="48">06　{{TOC_ITEM_6_TITLE}}</tspan>
+    </text>
+    <path d="M372 337H1208 M372 385H1208 M372 433H1208 M372 481H1208 M372 529H1208 M372 577H1208" fill="none" stroke="#D9D9D9" stroke-width="1"/>
+  </g>
+  <g id="footer">
+    <image href="brand_logo_footer.png" x="72" y="665" width="75" height="21" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+</svg>

@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://codex-ppt.local/native-editable-manifest.schema.json",
+  "title": "codex-ppt Route B Native Editable Manifest",
+  "type": "object",
+  "required": ["slides"],
+  "additionalProperties": false,
+  "properties": {
+    "deck": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "eyebrow": { "type": "string" },
+        "fontFace": { "type": "string" }
+      }
+    },
+    "slides": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["title"],
+        "additionalProperties": true,
+        "properties": {
+          "template_id": {
+            "type": "string",
+            "enum": [
+              "six_risk_hub_spoke_clean",
+              "six_cards_grid",
+              "risk_control_matrix",
+              "lifecycle_process",
+              "governance_layers"
+            ]
+          },
+          "layout_type": {
+            "type": "string",
+            "enum": [
+              "auto_hub_spoke",
+              "auto_cards",
+              "auto_process",
+              "auto_matrix",
+              "auto_layers",
+              "auto_two_column"
+            ]
+          },
+          "connector_policy": {
+            "type": "string",
+            "enum": ["none", "minimal"]
+          },
+          "title": { "type": "string" },
+          "subtitle": { "type": "string" },
+          "eyebrow": { "type": "string" },
+          "center": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "title": { "type": "string" },
+              "body": { "type": "string" }
+            }
+          },
+          "axis_labels": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "left": { "type": "string" },
+              "right": { "type": "string" },
+              "bottom": { "type": "string" }
+            }
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["title"],
+              "additionalProperties": true,
+              "properties": {
+                "number": { "type": ["string", "number"] },
+                "title": { "type": "string" },
+                "body": { "type": "string" },
+                "tone": {
+                  "type": "string",
+                  "enum": ["red", "deepRed", "gray", "gold", "sand", "cream", "soft"]
+                }
+              }
+            }
+          },
+          "rows": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true,
+              "properties": {
+                "risk": { "type": "string" },
+                "impact": { "type": "string" },
+                "control": { "type": "string" }
+              }
+            }
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["title"],
+              "additionalProperties": true,
+              "properties": {
+                "title": { "type": "string" },
+                "body": { "type": "string" }
+              }
+            }
+          },
+          "layers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["title"],
+              "additionalProperties": true,
+              "properties": {
+                "title": { "type": "string" },
+                "body": { "type": "string" }
+              }
+            }
+          },
+          "takeaway": { "type": "string" },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-02T12:09:59.193294+00:00",
+  "sourcePptx": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\templates\\fund-pension-annuity\\source.pptx",
+  "slidePlan": "ppt-template-generator\\projects\\intake_20260706\\ppt-generation-plan.json",
+  "outputSlides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "cover",
+      "slideId": "s001",
+      "title": "中国银行股份有限公司企业年金计划 国泰基金组合投资汇报",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 2,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "toc",
+      "slideId": "s002",
+      "title": "目录",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 3,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "section",
+      "slideId": "s003",
+      "title": "组合业绩分析",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s004",
+      "title": "组合业绩情况",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s005",
+      "title": "组合业绩归因",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s006",
+      "title": "组合资产配置",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s007",
+      "title": "今年以来资产配置回顾",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 3,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "section",
+      "slideId": "s008",
+      "title": "投资操作回顾",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 9,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s009",
+      "title": "组合固收投资回顾",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 10,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s010",
+      "title": "组合固收投资回顾（2）",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 11,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s011",
+      "title": "组合固收投资回顾（3）",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 12,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s012",
+      "title": "组合固收投资回顾（4）",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 13,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s013",
+      "title": "组合固收投资回顾（5）",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 14,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s014",
+      "title": "组合权益投资回顾",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 15,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s015",
+      "title": "组合权益投资回顾（2）",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 16,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s016",
+      "title": "组合权益投资回顾（3）",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 17,
+      "sourceSlide": 3,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "section",
+      "slideId": "s017",
+      "title": "下阶段市场研判及组合操作策略",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 18,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s018",
+      "title": "市场回顾",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 19,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s019",
+      "title": "市场回顾（2）",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 20,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s020",
+      "title": "投资策略",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 21,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s021",
+      "title": "投资策略（2）",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 22,
+      "sourceSlide": 3,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "section",
+      "slideId": "s022",
+      "title": "补充数据图表",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 23,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s023",
+      "title": "养老金产品时序图_数据",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 24,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s024",
+      "title": "组合可转债仓位变动情况（穿透后）_数据",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 25,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s025",
+      "title": "可转债正股行业时序图(不穿透)_数据",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 26,
+      "sourceSlide": 4,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "content",
+      "slideId": "s026",
+      "title": "可转债正股行业时序图(穿透)_数据",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 27,
+      "sourceSlide": 18,
+      "reuseMode": "duplicate-slide",
+      "narrativeRole": "closing",
+      "slideId": "s027",
+      "title": "封底",
+      "editTargets": []
+    }
+  ]
+}

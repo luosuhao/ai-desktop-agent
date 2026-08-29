@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>fund-pension-annuity template review</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      background: #F6F7F9;
+      color: #172033;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header {
+      padding: 28px 36px 20px;
+      background: #FFFFFF;
+      border-bottom: 1px solid #E5E7EB;
+    }
+    h1 { margin: 0 0 12px; font-size: 28px; letter-spacing: 0; }
+    .subline { display: flex; flex-wrap: wrap; gap: 10px; color: #526070; font-size: 13px; }
+    .metric, .file-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 30px;
+      padding: 5px 10px;
+      border: 1px solid #DCE1E8;
+      background: #FFFFFF;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #263445;
+    }
+    .metric b { color: #111827; }
+    main { padding: 24px 36px 36px; }
+    h2 { margin: 0 0 14px; font-size: 18px; letter-spacing: 0; }
+    .role-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin-bottom: 30px;
+    }
+    .role-card {
+      background: #FFFFFF;
+      border: 1px solid #E1E6EE;
+      border-top: 5px solid var(--role-color);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .role-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 12px 14px;
+    }
+    .role-pill {
+      display: inline-flex;
+      align-items: center;
+      height: 26px;
+      padding: 0 9px;
+      background: color-mix(in srgb, var(--role-color) 12%, white);
+      color: var(--role-color);
+      border: 1px solid color-mix(in srgb, var(--role-color) 35%, white);
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 12px;
+    }
+    .source { color: #64748B; font-size: 12px; }
+    .preview {
+      aspect-ratio: 16 / 9;
+      background: #EEF2F7;
+      border-top: 1px solid #E5E7EB;
+      border-bottom: 1px solid #E5E7EB;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+    .preview img, .mini-preview img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+      background: #FFFFFF;
+    }
+    .preview-fallback {
+      display: grid;
+      gap: 8px;
+      text-align: center;
+      color: #334155;
+    }
+    .preview-fallback strong { font-size: 28px; }
+    dl { margin: 0; padding: 12px 14px; display: grid; gap: 8px; }
+    dl div { display: grid; grid-template-columns: 68px 1fr; gap: 8px; }
+    dt { color: #64748B; font-size: 12px; }
+    dd { margin: 0; min-width: 0; overflow-wrap: anywhere; font-size: 13px; }
+    .slots { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 14px 12px; }
+    .slot {
+      font-size: 11px;
+      padding: 4px 7px;
+      border-radius: 5px;
+      background: #F1F5F9;
+      color: #334155;
+    }
+    .note { margin: 0; padding: 0 14px 14px; color: #64748B; font-size: 12px; }
+    .slide-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 12px;
+    }
+    .slide-tile {
+      border: 1px solid #E1E6EE;
+      border-left: 5px solid var(--role-color);
+      border-radius: 8px;
+      background: #FFFFFF;
+      overflow: hidden;
+    }
+    .mini-preview {
+      aspect-ratio: 16 / 9;
+      background: #EEF2F7;
+      display: grid;
+      place-items: center;
+    }
+    .mini-fallback { font-size: 24px; font-weight: 700; color: var(--role-color); }
+    .slide-meta { display: grid; gap: 3px; padding: 9px 10px 10px; }
+    .slide-meta strong { font-size: 13px; }
+    .slide-meta span { color: var(--role-color); font-size: 12px; font-weight: 700; }
+    .slide-meta small { color: #64748B; overflow-wrap: anywhere; }
+    .status {
+      margin: 0 0 18px;
+      padding: 10px 12px;
+      border: 1px solid #DCE1E8;
+      border-radius: 8px;
+      background: #FFFFFF;
+      color: #526070;
+      font-size: 13px;
+    }
+    @media (max-width: 720px) {
+      header, main { padding-left: 18px; padding-right: 18px; }
+      h1 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>fund-pension-annuity</h1>
+    <div class="subline">
+      <span class="metric"><b>Slides</b>18</span>
+      <span class="metric"><b>Used layouts</b>5</span>
+      <span class="metric"><b>Cover</b>1</span><span class="metric"><b>TOC</b>1</span><span class="metric"><b>Section</b>3</span><span class="metric"><b>Content</b>12</span><span class="metric"><b>Closing</b>1</span>
+      <a class="file-link" href="layout-registry.json">layout-registry.json</a>
+      <a class="file-link" href="source.pptx">source.pptx</a>
+    </div>
+  </header>
+  <main>
+    <p class="status">Preview status: ready. Rendered 18 slide SVG previews. Patched 7 Office SVG image layers and 6 number badge backgrounds.</p>
+    <section>
+      <h2>Role Templates</h2>
+      <div class="role-grid">
+      <article class="role-card" style="--role-color:#2563EB">
+        <div class="role-head">
+          <span class="role-pill">Cover</span>
+          <span class="source">source slide 1</span>
+        </div>
+        <div class="preview"><img src="review-assets/pptx-svg/svg/slide_01.svg" alt="slide 1 preview"></div>
+        <dl>
+          <div><dt>Layout</dt><dd>封面</dd></div>
+          <div><dt>Used By</dt><dd>1</dd></div>
+          <div><dt>Target</dt><dd>ppt/slideLayouts/slideLayout1.xml</dd></div>
+        </dl>
+        <div class="slots"><span class="slot">title:text</span><span class="slot">subtitle:text</span><span class="slot">date:text</span></div>
+        <p class="note">Matched role &#x27;cover&#x27; from layout name.</p>
+      </article>
+    
+
+      <article class="role-card" style="--role-color:#0891B2">
+        <div class="role-head">
+          <span class="role-pill">TOC</span>
+          <span class="source">source slide 2</span>
+        </div>
+        <div class="preview"><img src="review-assets/pptx-svg/svg/slide_02.svg" alt="slide 2 preview"></div>
+        <dl>
+          <div><dt>Layout</dt><dd>目录</dd></div>
+          <div><dt>Used By</dt><dd>2</dd></div>
+          <div><dt>Target</dt><dd>ppt/slideLayouts/slideLayout3.xml</dd></div>
+        </dl>
+        <div class="slots"><span class="slot">title:text</span><span class="slot">items:list</span></div>
+        <p class="note">Matched role &#x27;toc&#x27; from layout name.</p>
+      </article>
+    
+
+      <article class="role-card" style="--role-color:#7C3AED">
+        <div class="role-head">
+          <span class="role-pill">Section</span>
+          <span class="source">source slide 3</span>
+        </div>
+        <div class="preview"><img src="review-assets/pptx-svg/svg/slide_03.svg" alt="slide 3 preview"></div>
+        <dl>
+          <div><dt>Layout</dt><dd>章节页</dd></div>
+          <div><dt>Used By</dt><dd>3, 7, 15</dd></div>
+          <div><dt>Target</dt><dd>ppt/slideLayouts/slideLayout4.xml</dd></div>
+        </dl>
+        <div class="slots"><span class="slot">section_title:text</span><span class="slot">section_index:text</span></div>
+        <p class="note">Matched role &#x27;section&#x27; from layout name.</p>
+      </article>
+    
+
+      <article class="role-card" style="--role-color:#059669">
+        <div class="role-head">
+          <span class="role-pill">Content</span>
+          <span class="source">source slide 4</span>
+        </div>
+        <div class="preview"><img src="review-assets/pptx-svg/svg/slide_04.svg" alt="slide 4 preview"></div>
+        <dl>
+          <div><dt>Layout</dt><dd>重要观点1</dd></div>
+          <div><dt>Used By</dt><dd>4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 16, 17</dd></div>
+          <div><dt>Target</dt><dd>ppt/slideLayouts/slideLayout8.xml</dd></div>
+        </dl>
+        <div class="slots"><span class="slot">title:text</span><span class="slot">bullets:list</span><span class="slot">visual:image_or_chart</span><span class="slot">table:table</span></div>
+        <p class="note">Assigned as content by fallback for non-special layout.</p>
+      </article>
+    
+
+      <article class="role-card" style="--role-color:#EA580C">
+        <div class="role-head">
+          <span class="role-pill">Closing</span>
+          <span class="source">source slide 18</span>
+        </div>
+        <div class="preview"><img src="review-assets/pptx-svg/svg/slide_18.svg" alt="slide 18 preview"></div>
+        <dl>
+          <div><dt>Layout</dt><dd>封底1</dd></div>
+          <div><dt>Used By</dt><dd>18</dd></div>
+          <div><dt>Target</dt><dd>ppt/slideLayouts/slideLayout10.xml</dd></div>
+        </dl>
+        <div class="slots"><span class="slot">title:text</span><span class="slot">contact:text</span></div>
+        <p class="note">Matched role &#x27;closing&#x27; from layout name.</p>
+      </article>
+    </div>
+    </section>
+    <section>
+      <h2>Slide Audit</h2>
+      <div class="slide-grid">
+            <article class="slide-tile" style="--role-color:#2563EB">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_01.svg" alt="slide 1 preview"></div>
+              <div class="slide-meta">
+                <strong>01</strong>
+                <span>Cover</span>
+                <small>封面</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#0891B2">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_02.svg" alt="slide 2 preview"></div>
+              <div class="slide-meta">
+                <strong>02</strong>
+                <span>TOC</span>
+                <small>目录</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#7C3AED">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_03.svg" alt="slide 3 preview"></div>
+              <div class="slide-meta">
+                <strong>03</strong>
+                <span>Section</span>
+                <small>章节页</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#059669">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_04.svg" alt="slide 4 preview"></div>
+              <div class="slide-meta">
+                <strong>04</strong>
+                <span>Content</span>
+                <small>重要观点1</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#059669">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_05.svg" alt="slide 5 preview"></div>
+              <div class="slide-meta">
+                <strong>05</strong>
+                <span>Content</span>
+                <small>重要观点1</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#059669">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_06.svg" alt="slide 6 preview"></div>
+              <div class="slide-meta">
+                <strong>06</strong>
+                <span>Content</span>
+                <small>重要观点1</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#7C3AED">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_07.svg" alt="slide 7 preview"></div>
+              <div class="slide-meta">
+                <strong>07</strong>
+                <span>Section</span>
+                <small>章节页</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#059669">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_08.svg" alt="slide 8 preview"></div>
+              <div class="slide-meta">
+                <strong>08</strong>
+                <span>Content</span>
+                <small>重要观点1</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#059669">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_09.svg" alt="slide 9 preview"></div>
+              <div class="slide-meta">
+                <strong>09</strong>
+                <span>Content</span>
+                <small>重要观点1</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#059669">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_10.svg" alt="slide 10 preview"></div>
+              <div class="slide-meta">
+                <strong>10</strong>
+                <span>Content</span>
+                <small>重要观点1</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#059669">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_11.svg" alt="slide 11 preview"></div>
+              <div class="slide-meta">
+                <strong>11</strong>
+                <span>Content</span>
+                <small>重要观点1</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#059669">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_12.svg" alt="slide 12 preview"></div>
+              <div class="slide-meta">
+                <strong>12</strong>
+                <span>Content</span>
+                <small>重要观点1</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#059669">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_13.svg" alt="slide 13 preview"></div>
+              <div class="slide-meta">
+                <strong>13</strong>
+                <span>Content</span>
+                <small>重要观点1</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#059669">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_14.svg" alt="slide 14 preview"></div>
+              <div class="slide-meta">
+                <strong>14</strong>
+                <span>Content</span>
+                <small>重要观点1</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#7C3AED">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_15.svg" alt="slide 15 preview"></div>
+              <div class="slide-meta">
+                <strong>15</strong>
+                <span>Section</span>
+                <small>章节页</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#059669">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_16.svg" alt="slide 16 preview"></div>
+              <div class="slide-meta">
+                <strong>16</strong>
+                <span>Content</span>
+                <small>重要观点1</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#059669">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_17.svg" alt="slide 17 preview"></div>
+              <div class="slide-meta">
+                <strong>17</strong>
+                <span>Content</span>
+                <small>重要观点1</small>
+              </div>
+            </article>
+            
+
+            <article class="slide-tile" style="--role-color:#EA580C">
+              <div class="mini-preview"><img src="review-assets/pptx-svg/svg/slide_18.svg" alt="slide 18 preview"></div>
+              <div class="slide-meta">
+                <strong>18</strong>
+                <span>Closing</span>
+                <small>封底1</small>
+              </div>
+            </article>
+            </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,58 @@
+{
+  "name": "ai-desktop-system",
+  "version": "1.0.0",
+  "description": "AI桌面端系统 - 桌面客户端",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --win --dir",
+    "dist": "electron-builder --win"
+  },
+  "build": {
+    "appId": "com.ai-desktop.system",
+    "productName": "AI桌面端系统",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "icon.ico"
+    ],
+    "extraResources": [
+      {
+        "from": "../frontend/dist",
+        "to": "frontend/dist"
+      },
+      {
+        "from": "../backend",
+        "to": "backend",
+        "filter": [
+          "**/*",
+          "!__pycache__/**",
+          "!**/*.pyc",
+          "!build/**",
+          "!**/node_modules/**",
+          "!outputs/**",
+          "!uploads/**",
+          "!chroma_db/**",
+          "!wiki_db/**"
+        ]
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "AI桌面端系统"
+    }
+  },
+  "devDependencies": {
+    "electron": "^22.3.27",
+    "electron-builder": "^24.0.0"
+  }
+}

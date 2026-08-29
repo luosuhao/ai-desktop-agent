@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "templateId": "fund-pension-annuity",
+  "templateDir": "F:\\ppt-skill\\ppt-template-parser\\template\\fund-pension-annuity",
+  "sourcePptx": "E:\\ppt-skill\\材料\\基金画像年金PPT汇总_20260706140341.pptx",
+  "bundledPptx": "F:\\ppt-skill\\ppt-template-parser\\template\\fund-pension-annuity\\source.pptx",
+  "generatedAt": "2026-07-13T05:57:06.941425+00:00",
+  "parser": {
+    "name": "ppt-template-parser",
+    "strategy": "pptx-slide-layout-name-v1"
+  },
+  "summary": {
+    "slideCount": 18,
+    "usedLayoutCount": 5,
+    "pptLayoutPartCount": 11,
+    "pptMasterPartCount": 1,
+    "slideRoleCounts": {
+      "cover": 1,
+      "toc": 1,
+      "section": 3,
+      "content": 12,
+      "closing": 1
+    },
+    "layoutRoleCounts": {
+      "cover": 1,
+      "toc": 1,
+      "section": 1,
+      "content": 1,
+      "closing": 1
+    }
+  },
+  "roles": {
+    "cover": [
+      {
+        "role": "cover",
+        "sourceSlide": 1,
+        "pptLayoutName": "封面",
+        "layoutTarget": "ppt/slideLayouts/slideLayout1.xml",
+        "layoutType": null,
+        "usedBySlides": [
+          1
+        ],
+        "priority": 0,
+        "slots": [
+          {
+            "name": "title",
+            "kind": "text",
+            "required": true
+          },
+          {
+            "name": "subtitle",
+            "kind": "text",
+            "required": false
+          },
+          {
+            "name": "date",
+            "kind": "text",
+            "required": false
+          }
+        ],
+        "notes": "Matched role 'cover' from layout name."
+      }
+    ],
+    "toc": [
+      {
+        "role": "toc",
+        "sourceSlide": 2,
+        "pptLayoutName": "目录",
+        "layoutTarget": "ppt/slideLayouts/slideLayout3.xml",
+        "layoutType": null,
+        "usedBySlides": [
+          2
+        ],
+        "priority": 0,
+        "slots": [
+          {
+            "name": "title",
+            "kind": "text",
+            "required": false
+          },
+          {
+            "name": "items",
+            "kind": "list",
+            "required": true
+          }
+        ],
+        "notes": "Matched role 'toc' from layout name."
+      }
+    ],
+    "section": [
+      {
+        "role": "section",
+        "sourceSlide": 3,
+        "pptLayoutName": "章节页",
+        "layoutTarget": "ppt/slideLayouts/slideLayout4.xml",
+        "layoutType": null,
+        "usedBySlides": [
+          3,
+          7,
+          15
+        ],
+        "priority": 0,
+        "slots": [
+          {
+            "name": "section_title",
+            "kind": "text",
+            "required": true
+          },
+          {
+            "name": "section_index",
+            "kind": "text",
+            "required": false
+          }
+        ],
+        "notes": "Matched role 'section' from layout name."
+      }
+    ],
+    "content": [
+      {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml",
+        "layoutType": null,
+        "usedBySlides": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          17
+        ],
+        "priority": 0,
+        "slots": [
+          {
+            "name": "title",
+            "kind": "text",
+            "required": true
+          },
+          {
+            "name": "bullets",
+            "kind": "list",
+            "required": false
+          },
+          {
+            "name": "visual",
+            "kind": "image_or_chart",
+            "required": false
+          },
+          {
+            "name": "table",
+            "kind": "table",
+            "required": false
+          }
+        ],
+        "notes": "Assigned as content by fallback for non-special layout."
+      }
+    ],
+    "closing": [
+      {
+        "role": "closing",
+        "sourceSlide": 18,
+        "pptLayoutName": "封底1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout10.xml",
+        "layoutType": null,
+        "usedBySlides": [
+          18
+        ],
+        "priority": 0,
+        "slots": [
+          {
+            "name": "title",
+            "kind": "text",
+            "required": false
+          },
+          {
+            "name": "contact",
+            "kind": "text",
+            "required": false
+          }
+        ],
+        "notes": "Matched role 'closing' from layout name."
+      }
+    ]
+  },
+  "slides": [
+    {
+      "slideNumber": 1,
+      "slidePath": "ppt/slides/slide1.xml",
+      "pptLayoutName": "封面",
+      "layoutTarget": "ppt/slideLayouts/slideLayout1.xml",
+      "assignedRole": "cover"
+    },
+    {
+      "slideNumber": 2,
+      "slidePath": "ppt/slides/slide2.xml",
+      "pptLayoutName": "目录",
+      "layoutTarget": "ppt/slideLayouts/slideLayout3.xml",
+      "assignedRole": "toc"
+    },
+    {
+      "slideNumber": 3,
+      "slidePath": "ppt/slides/slide3.xml",
+      "pptLayoutName": "章节页",
+      "layoutTarget": "ppt/slideLayouts/slideLayout4.xml",
+      "assignedRole": "section"
+    },
+    {
+      "slideNumber": 4,
+      "slidePath": "ppt/slides/slide4.xml",
+      "pptLayoutName": "重要观点1",
+      "layoutTarget": "ppt/slideLayouts/slideLayout8.xml",
+      "assignedRole": "content"
+    },
+    {
+      "slideNumber": 5,
+      "slidePath": "ppt/slides/slide5.xml",
+      "pptLayoutName": "重要观点1",
+      "layoutTarget": "ppt/slideLayouts/slideLayout8.xml",
+      "assignedRole": "content"
+    },
+    {
+      "slideNumber": 6,
+      "slidePath": "ppt/slides/slide6.xml",
+      "pptLayoutName": "重要观点1",
+      "layoutTarget": "ppt/slideLayouts/slideLayout8.xml",
+      "assignedRole": "content"
+    },
+    {
+      "slideNumber": 7,
+      "slidePath": "ppt/slides/slide7.xml",
+      "pptLayoutName": "章节页",
+      "layoutTarget": "ppt/slideLayouts/slideLayout4.xml",
+      "assignedRole": "section"
+    },
+    {
+      "slideNumber": 8,
+      "slidePath": "ppt/slides/slide8.xml",
+      "pptLayoutName": "重要观点1",
+      "layoutTarget": "ppt/slideLayouts/slideLayout8.xml",
+      "assignedRole": "content"
+    },
+    {
+      "slideNumber": 9,
+      "slidePath": "ppt/slides/slide9.xml",
+      "pptLayoutName": "重要观点1",
+      "layoutTarget": "ppt/slideLayouts/slideLayout8.xml",
+      "assignedRole": "content"
+    },
+    {
+      "slideNumber": 10,
+      "slidePath": "ppt/slides/slide10.xml",
+      "pptLayoutName": "重要观点1",
+      "layoutTarget": "ppt/slideLayouts/slideLayout8.xml",
+      "assignedRole": "content"
+    },
+    {
+      "slideNumber": 11,
+      "slidePath": "ppt/slides/slide11.xml",
+      "pptLayoutName": "重要观点1",
+      "layoutTarget": "ppt/slideLayouts/slideLayout8.xml",
+      "assignedRole": "content"
+    },
+    {
+      "slideNumber": 12,
+      "slidePath": "ppt/slides/slide12.xml",
+      "pptLayoutName": "重要观点1",
+      "layoutTarget": "ppt/slideLayouts/slideLayout8.xml",
+      "assignedRole": "content"
+    },
+    {
+      "slideNumber": 13,
+      "slidePath": "ppt/slides/slide13.xml",
+      "pptLayoutName": "重要观点1",
+      "layoutTarget": "ppt/slideLayouts/slideLayout8.xml",
+      "assignedRole": "content"
+    },
+    {
+      "slideNumber": 14,
+      "slidePath": "ppt/slides/slide14.xml",
+      "pptLayoutName": "重要观点1",
+      "layoutTarget": "ppt/slideLayouts/slideLayout8.xml",
+      "assignedRole": "content"
+    },
+    {
+      "slideNumber": 15,
+      "slidePath": "ppt/slides/slide15.xml",
+      "pptLayoutName": "章节页",
+      "layoutTarget": "ppt/slideLayouts/slideLayout4.xml",
+      "assignedRole": "section"
+    },
+    {
+      "slideNumber": 16,
+      "slidePath": "ppt/slides/slide16.xml",
+      "pptLayoutName": "重要观点1",
+      "layoutTarget": "ppt/slideLayouts/slideLayout8.xml",
+      "assignedRole": "content"
+    },
+    {
+      "slideNumber": 17,
+      "slidePath": "ppt/slides/slide17.xml",
+      "pptLayoutName": "重要观点1",
+      "layoutTarget": "ppt/slideLayouts/slideLayout8.xml",
+      "assignedRole": "content"
+    },
+    {
+      "slideNumber": 18,
+      "slidePath": "ppt/slides/slide18.xml",
+      "pptLayoutName": "封底1",
+      "layoutTarget": "ppt/slideLayouts/slideLayout10.xml",
+      "assignedRole": "closing"
+    }
+  ],
+  "unclassifiedLayouts": [],
+  "review": {
+    "html": "F:\\ppt-skill\\ppt-template-parser\\template\\fund-pension-annuity\\review.html",
+    "previewStatus": {
+      "status": "ready",
+      "message": "Rendered 18 slide SVG previews. Patched 7 Office SVG image layers and 6 number badge backgrounds.",
+      "previewDir": "F:\\ppt-skill\\ppt-template-parser\\template\\fund-pension-annuity\\review-assets\\pptx-svg",
+      "svgBlipPatch": {
+        "inserted": 7,
+        "slides": 6,
+        "status": "ok"
+      },
+      "numberBadgePatch": {
+        "patched": 6,
+        "slides": 4,
+        "status": "ok"
+      }
+    },
+    "previewCount": 18
+  }
+}

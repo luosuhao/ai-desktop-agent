@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "sourceManifest": "ppt-template-generator\\projects\\intake_20260706\\excel-content-manifest.json",
+  "outputDir": "ppt-template-generator\\projects\\intake_20260706\\sheet-md-assets",
+  "sheetCount": 12,
+  "sheets": [
+    {
+      "order": 1,
+      "groupId": "组合业绩情况",
+      "sheet": "组合业绩情况",
+      "title": "组合业绩情况",
+      "markdown": "sheet-md-assets/组合业绩情况.md",
+      "sectionCount": 1,
+      "viewpointCount": 4,
+      "imageCount": 9
+    },
+    {
+      "order": 2,
+      "groupId": "组合业绩归因",
+      "sheet": "组合业绩归因",
+      "title": "组合业绩归因",
+      "markdown": "sheet-md-assets/组合业绩归因.md",
+      "sectionCount": 1,
+      "viewpointCount": 3,
+      "imageCount": 2
+    },
+    {
+      "order": 3,
+      "groupId": "组合资产配置",
+      "sheet": "组合资产配置",
+      "title": "组合资产配置",
+      "markdown": "sheet-md-assets/组合资产配置.md",
+      "sectionCount": 1,
+      "viewpointCount": 6,
+      "imageCount": 3
+    },
+    {
+      "order": 4,
+      "groupId": "今年以来资产配置回顾",
+      "sheet": "今年以来资产配置回顾",
+      "title": "今年以来资产配置回顾",
+      "markdown": "sheet-md-assets/今年以来资产配置回顾.md",
+      "sectionCount": 1,
+      "viewpointCount": 5,
+      "imageCount": 2
+    },
+    {
+      "order": 5,
+      "groupId": "组合固收投资回顾",
+      "sheet": "组合固收投资回顾",
+      "title": "组合固收投资回顾",
+      "markdown": "sheet-md-assets/组合固收投资回顾.md",
+      "sectionCount": 5,
+      "viewpointCount": 13,
+      "imageCount": 14
+    },
+    {
+      "order": 6,
+      "groupId": "组合权益投资回顾",
+      "sheet": "组合权益投资回顾",
+      "title": "组合权益投资回顾",
+      "markdown": "sheet-md-assets/组合权益投资回顾.md",
+      "sectionCount": 3,
+      "viewpointCount": 4,
+      "imageCount": 14
+    },
+    {
+      "order": 7,
+      "groupId": "市场回顾",
+      "sheet": "市场回顾",
+      "title": "市场回顾",
+      "markdown": "sheet-md-assets/市场回顾.md",
+      "sectionCount": 2,
+      "viewpointCount": 4,
+      "imageCount": 9
+    },
+    {
+      "order": 8,
+      "groupId": "投资策略",
+      "sheet": "投资策略",
+      "title": "投资策略",
+      "markdown": "sheet-md-assets/投资策略.md",
+      "sectionCount": 1,
+      "viewpointCount": 8,
+      "imageCount": 0
+    },
+    {
+      "order": 9,
+      "groupId": "养老金产品时序图_数据",
+      "sheet": "养老金产品时序图_数据",
+      "title": "养老金产品时序图_数据",
+      "markdown": "sheet-md-assets/养老金产品时序图_数据.md",
+      "sectionCount": 1,
+      "viewpointCount": 0,
+      "imageCount": 1
+    },
+    {
+      "order": 10,
+      "groupId": "组合可转债仓位变动情况_穿透后_数据",
+      "sheet": "组合可转债仓位变动情况（穿透后）_数据",
+      "title": "组合可转债仓位变动情况（穿透后）_数据",
+      "markdown": "sheet-md-assets/组合可转债仓位变动情况_穿透后_数据.md",
+      "sectionCount": 1,
+      "viewpointCount": 0,
+      "imageCount": 1
+    },
+    {
+      "order": 11,
+      "groupId": "可转债正股行业时序图_不穿透_数据",
+      "sheet": "可转债正股行业时序图(不穿透)_数据",
+      "title": "可转债正股行业时序图(不穿透)_数据",
+      "markdown": "sheet-md-assets/可转债正股行业时序图_不穿透_数据.md",
+      "sectionCount": 1,
+      "viewpointCount": 0,
+      "imageCount": 1
+    },
+    {
+      "order": 12,
+      "groupId": "可转债正股行业时序图_穿透_数据",
+      "sheet": "可转债正股行业时序图(穿透)_数据",
+      "title": "可转债正股行业时序图(穿透)_数据",
+      "markdown": "sheet-md-assets/可转债正股行业时序图_穿透_数据.md",
+      "sectionCount": 1,
+      "viewpointCount": 0,
+      "imageCount": 2
+    }
+  ]
+}

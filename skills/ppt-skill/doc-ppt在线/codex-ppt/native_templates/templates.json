@@ -1,0 +1,180 @@
+{
+  "version": "0.1.0",
+  "canvas": {
+    "layout": "LAYOUT_WIDE",
+    "width": 13.333,
+    "height": 7.5,
+    "unit": "in"
+  },
+  "theme": {
+    "fontFace": "Microsoft YaHei",
+    "colors": {
+      "ink": "111111",
+      "muted": "6B7280",
+      "line": "C7C1B5",
+      "deepRed": "7A0710",
+      "red": "B3041B",
+      "gray": "6F6F72",
+      "gold": "C3A15D",
+      "sand": "E1C991",
+      "cream": "F4EFE5",
+      "soft": "F8F7F4",
+      "white": "FFFFFF"
+    }
+  },
+  "templates": [
+    {
+      "template_id": "six_risk_hub_spoke_clean",
+      "role": "framework_diagram",
+      "description": "Center topic plus six fixed risk cards. Use for six-category risk maps. Connectors are optional and port-based.",
+      "limits": {
+        "items_min": 4,
+        "items_max": 6,
+        "item_title_max_chars": 18,
+        "item_body_max_chars": 28,
+        "allow_connectors": true
+      },
+      "slots": {
+        "header_mark": { "x": 0.55, "y": 0.42, "w": 0.42, "h": 0.42 },
+        "deck_title": { "x": 1.08, "y": 0.43, "w": 5.8, "h": 0.42 },
+        "eyebrow": { "x": 9.7, "y": 0.45, "w": 3.0, "h": 0.26 },
+        "title": { "x": 2.85, "y": 1.05, "w": 7.9, "h": 0.55 },
+        "subtitle": { "x": 3.85, "y": 1.68, "w": 5.7, "h": 0.28 },
+        "center": { "x": 5.72, "y": 3.06, "w": 1.88, "h": 1.38 },
+        "axis_left": { "x": 1.15, "y": 3.86, "w": 1.35, "h": 0.32 },
+        "axis_right": { "x": 10.85, "y": 3.86, "w": 1.35, "h": 0.32 },
+        "axis_bottom": { "x": 6.12, "y": 6.32, "w": 1.18, "h": 0.3 },
+        "item_1": { "x": 4.05, "y": 2.02, "w": 2.25, "h": 0.78, "port": "bottom" },
+        "item_2": { "x": 7.05, "y": 2.02, "w": 2.35, "h": 0.78, "port": "bottom" },
+        "item_3": { "x": 9.75, "y": 3.04, "w": 2.35, "h": 0.82, "port": "left" },
+        "item_4": { "x": 9.75, "y": 4.66, "w": 2.35, "h": 0.82, "port": "left" },
+        "item_5": { "x": 7.02, "y": 5.48, "w": 2.35, "h": 0.82, "port": "top" },
+        "item_6": { "x": 4.05, "y": 5.48, "w": 2.25, "h": 0.82, "port": "top" },
+        "takeaway": { "x": 0.85, "y": 6.84, "w": 11.65, "h": 0.44 }
+      },
+      "fallback": {
+        "too_many_items": "split_slide",
+        "long_item_text": "shorten_body_or_use_six_cards_grid",
+        "connector_noise": "disable_connectors_or_use_six_cards_grid"
+      }
+    },
+    {
+      "template_id": "six_cards_grid",
+      "role": "summary_cards",
+      "description": "Stable 2x3 card grid. Use when a hub-spoke map would create noisy lines.",
+      "limits": {
+        "items_min": 3,
+        "items_max": 6,
+        "item_title_max_chars": 20,
+        "item_body_max_chars": 42,
+        "allow_connectors": false
+      },
+      "slots": {
+        "header_mark": { "x": 0.55, "y": 0.42, "w": 0.42, "h": 0.42 },
+        "deck_title": { "x": 1.08, "y": 0.43, "w": 5.8, "h": 0.42 },
+        "eyebrow": { "x": 9.7, "y": 0.45, "w": 3.0, "h": 0.26 },
+        "title": { "x": 0.95, "y": 1.06, "w": 8.2, "h": 0.55 },
+        "subtitle": { "x": 0.98, "y": 1.68, "w": 8.8, "h": 0.28 },
+        "item_1": { "x": 0.95, "y": 2.25, "w": 3.55, "h": 1.12 },
+        "item_2": { "x": 4.9, "y": 2.25, "w": 3.55, "h": 1.12 },
+        "item_3": { "x": 8.85, "y": 2.25, "w": 3.55, "h": 1.12 },
+        "item_4": { "x": 0.95, "y": 3.8, "w": 3.55, "h": 1.12 },
+        "item_5": { "x": 4.9, "y": 3.8, "w": 3.55, "h": 1.12 },
+        "item_6": { "x": 8.85, "y": 3.8, "w": 3.55, "h": 1.12 },
+        "takeaway": { "x": 0.95, "y": 6.55, "w": 11.45, "h": 0.5 }
+      },
+      "fallback": {
+        "too_many_items": "split_slide",
+        "long_item_text": "shorten_body_or_split_slide"
+      }
+    },
+    {
+      "template_id": "risk_control_matrix",
+      "role": "risk_governance_matrix",
+      "description": "Left risk column plus right controls. Use for risk-control mapping and governance recommendations.",
+      "limits": {
+        "rows_min": 3,
+        "rows_max": 5,
+        "risk_max_chars": 24,
+        "control_max_chars": 52,
+        "allow_connectors": false
+      },
+      "slots": {
+        "header_mark": { "x": 0.55, "y": 0.42, "w": 0.42, "h": 0.42 },
+        "deck_title": { "x": 1.08, "y": 0.43, "w": 5.8, "h": 0.42 },
+        "eyebrow": { "x": 9.7, "y": 0.45, "w": 3.0, "h": 0.26 },
+        "title": { "x": 0.95, "y": 1.05, "w": 9.0, "h": 0.55 },
+        "subtitle": { "x": 0.98, "y": 1.66, "w": 9.0, "h": 0.28 },
+        "matrix": { "x": 0.95, "y": 2.22, "w": 11.45, "h": 3.95 },
+        "takeaway": { "x": 0.95, "y": 6.55, "w": 11.45, "h": 0.5 }
+      },
+      "columns": [
+        { "key": "risk", "label": "Risk", "width": 0.32 },
+        { "key": "impact", "label": "Impact", "width": 0.23 },
+        { "key": "control", "label": "Control", "width": 0.45 }
+      ],
+      "fallback": {
+        "too_many_rows": "split_slide",
+        "long_control_text": "shorten_or_use_table_snapshot"
+      }
+    },
+    {
+      "template_id": "lifecycle_process",
+      "role": "process_flow",
+      "description": "Five-step lifecycle flow with fixed arrows. Use for data-model-deploy-monitor-govern cycles.",
+      "limits": {
+        "steps_min": 3,
+        "steps_max": 5,
+        "step_title_max_chars": 14,
+        "step_body_max_chars": 34,
+        "allow_connectors": true
+      },
+      "slots": {
+        "header_mark": { "x": 0.55, "y": 0.42, "w": 0.42, "h": 0.42 },
+        "deck_title": { "x": 1.08, "y": 0.43, "w": 5.8, "h": 0.42 },
+        "eyebrow": { "x": 9.7, "y": 0.45, "w": 3.0, "h": 0.26 },
+        "title": { "x": 0.95, "y": 1.05, "w": 9.2, "h": 0.55 },
+        "subtitle": { "x": 0.98, "y": 1.66, "w": 9.0, "h": 0.28 },
+        "step_1": { "x": 0.95, "y": 2.72, "w": 2.15, "h": 1.55 },
+        "step_2": { "x": 3.25, "y": 2.72, "w": 2.15, "h": 1.55 },
+        "step_3": { "x": 5.55, "y": 2.72, "w": 2.15, "h": 1.55 },
+        "step_4": { "x": 7.85, "y": 2.72, "w": 2.15, "h": 1.55 },
+        "step_5": { "x": 10.15, "y": 2.72, "w": 2.15, "h": 1.55 },
+        "takeaway": { "x": 0.95, "y": 6.55, "w": 11.45, "h": 0.5 }
+      },
+      "fallback": {
+        "too_many_steps": "split_slide",
+        "long_step_text": "shorten_body"
+      }
+    },
+    {
+      "template_id": "governance_layers",
+      "role": "layered_framework",
+      "description": "Stacked governance layers. Use for regulator-institution-model-process-investor responsibility frameworks.",
+      "limits": {
+        "layers_min": 3,
+        "layers_max": 5,
+        "layer_title_max_chars": 16,
+        "layer_body_max_chars": 52,
+        "allow_connectors": false
+      },
+      "slots": {
+        "header_mark": { "x": 0.55, "y": 0.42, "w": 0.42, "h": 0.42 },
+        "deck_title": { "x": 1.08, "y": 0.43, "w": 5.8, "h": 0.42 },
+        "eyebrow": { "x": 9.7, "y": 0.45, "w": 3.0, "h": 0.26 },
+        "title": { "x": 0.95, "y": 1.05, "w": 9.2, "h": 0.55 },
+        "subtitle": { "x": 0.98, "y": 1.66, "w": 9.0, "h": 0.28 },
+        "layer_1": { "x": 1.2, "y": 2.2, "w": 10.95, "h": 0.7 },
+        "layer_2": { "x": 1.55, "y": 3.02, "w": 10.25, "h": 0.7 },
+        "layer_3": { "x": 1.9, "y": 3.84, "w": 9.55, "h": 0.7 },
+        "layer_4": { "x": 2.25, "y": 4.66, "w": 8.85, "h": 0.7 },
+        "layer_5": { "x": 2.6, "y": 5.48, "w": 8.15, "h": 0.7 },
+        "takeaway": { "x": 0.95, "y": 6.55, "w": 11.45, "h": 0.5 }
+      },
+      "fallback": {
+        "too_many_layers": "split_slide",
+        "long_layer_text": "shorten_body_or_use_six_cards_grid"
+      }
+    }
+  ]
+}

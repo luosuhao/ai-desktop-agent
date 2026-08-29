@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background"><rect width="1280" height="720" fill="#FFFFFF"/></g>
+  <g id="ending-logo"><image href="brand_logo_header.png" x="72" y="42" width="126" height="35" preserveAspectRatio="xMidYMid meet"/><rect x="72" y="82" width="400" height="4" fill="#9E0116"/></g>
+  <g id="ending-title"><rect x="82" y="142" width="7" height="118" fill="#C9C9CA"/><text x="112" y="208" font-family="Arial, Microsoft YaHei, sans-serif" font-size="52" font-weight="bold" fill="#9E0116">{{THANK_YOU}}</text><text x="112" y="254" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#706F71">{{ENDING_SUBTITLE}}</text></g>
+  <g id="ending-network"><image href="network_glow.png" x="120" y="315" width="1040" height="260" preserveAspectRatio="xMidYMid meet"/></g>
+  <g id="ending-skyline"><image href="skyline_closing.png" x="0" y="365" width="1280" height="300" preserveAspectRatio="xMidYMax meet"/><rect x="0" y="655" width="1280" height="6" fill="#BF9D5A"/></g>
+  <g id="ending-contact"><text x="112" y="300" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#706F71">{{CONTACT_INFO}}</text><text x="1208" y="688" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#9E0116">{{PAGE_NUM}}</text></g>
+</svg>

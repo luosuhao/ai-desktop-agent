@@ -1,0 +1,51 @@
+{
+  "id": "corporate-six",
+  "name": "Corporate Six Palette",
+  "source_image": "palette.png",
+  "hard_requirement": true,
+  "colors": [
+    {
+      "name": "primary_red",
+      "hex": "#9E0116",
+      "usage": "primary accent, key emphasis, section marks"
+    },
+    {
+      "name": "deep_burgundy",
+      "hex": "#5D070C",
+      "usage": "deep contrast, headings, strong separators"
+    },
+    {
+      "name": "charcoal_gray",
+      "hex": "#706F71",
+      "usage": "body text, icon strokes, neutral emphasis"
+    },
+    {
+      "name": "medium_gray",
+      "hex": "#A7A7A7",
+      "usage": "secondary text, dividers, inactive UI elements"
+    },
+    {
+      "name": "muted_gold",
+      "hex": "#BF9D5A",
+      "usage": "secondary accent, highlights, callouts"
+    },
+    {
+      "name": "sand_beige",
+      "hex": "#D8C49B",
+      "usage": "soft fills, background panels, low-emphasis highlights"
+    }
+  ],
+  "rules": [
+    "These palette instructions are internal design rules only. Do not render the palette, color codes, color names, color chips, or swatch labels as visible slide content.",
+    "Use a pure white background as the full slide canvas.",
+    "Do not place a white slide card on top of a dark, red, burgundy, blurred, or decorative outer background.",
+    "Use these six colors for foreground components only: diagrams, cards, icons, charts, section markers, dividers, labels, callouts, and other non-photographic visual assets.",
+    "Do not use primary_red or deep_burgundy as a full-slide background or large dominant surface. Reserve them for accents, headings, key nodes, and emphasis.",
+    "White, black, transparency, and very light or dark tints of the six colors are allowed for readability, shadows, subtle panels, and edge separation.",
+    "Do not introduce blue, green, purple, orange, cyan, or other new accent hues unless they already exist inside a strict user-supplied source image that must be preserved.",
+    "When a strict input asset has its own colors, preserve the asset content, but keep all newly generated surrounding slide elements within this palette.",
+    "Prefer primary_red and muted_gold as accents; use charcoal_gray and medium_gray for structure; use sand_beige only for soft panels or small background fills, not the whole slide.",
+    "Use real slide content only. Do not invent color-code labels, color legends, filler microtext, fake UI chrome, or decorative menu icons."
+  ],
+  "prompt_text": "Internal design rules only; do not render this instruction text. Use a pure white background as the full slide canvas. Do not place a white card on a dark, red, burgundy, blurred, or decorative outer background. Use the fixed six-color design system only for foreground components and visual assets: primary deep red, dark burgundy, charcoal gray, medium gray, muted gold, and sand beige. Do not draw the color system itself, color cards, color-code text, color names, color chips, or palette legends as visible slide content. Use red and burgundy only for accents, headings, key nodes, and emphasis, not as a full-slide background or large dominant surface. White, black, transparency, and subtle tints/shades of the six-color system are allowed for readability, shadows, soft panels, and edge separation. Do not introduce blue, green, purple, orange, cyan, or any other new accent hue unless preserving a strict user-supplied source image. Do not invent filler microtext, fake labels, UI chrome, or decorative menu icons."
+}

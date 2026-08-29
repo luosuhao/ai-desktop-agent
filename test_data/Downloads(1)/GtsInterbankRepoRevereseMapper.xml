@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gtfund.cloud.gts.admin.mapper.GtsInterbankRepoRevereseMapper">
+
+    <resultMap id="BaseResultMap" type="com.gtfund.cloud.gts.admin.entity.GtsInterbankRepoReverese">
+            <result property="id" column="ID" jdbcType="VARCHAR"/>
+            <result property="nowDay" column="NOW_DAY" jdbcType="VARCHAR"/>
+            <result property="fundCode" column="FUND_CODE" jdbcType="VARCHAR"/>
+            <result property="fundName" column="FUND_NAME" jdbcType="VARCHAR"/>
+            <result property="riskMsg" column="RISK_MSG" jdbcType="VARCHAR"/>
+            <result property="dailyInstructionNo" column="DAILY_INSTRUCTION_NO" jdbcType="VARCHAR"/>
+            <result property="demandRate" column="DEMAND_RATE" jdbcType="VARCHAR"/>
+            <result property="minRepoRate" column="MIN_REPO_RATE" jdbcType="DECIMAL"/>
+            <result property="purpose" column="PURPOSE" jdbcType="VARCHAR"/>
+            <result property="isDelete" column="IS_DELETE" jdbcType="VARCHAR"/>
+            <result property="createTime" column="CREATE_TIME" jdbcType="TIMESTAMP"/>
+            <result property="createBy" column="CREATE_BY" jdbcType="VARCHAR"/>
+            <result property="updateTime" column="UPDATE_TIME" jdbcType="TIMESTAMP"/>
+            <result property="updateBy" column="UPDATE_BY" jdbcType="VARCHAR"/>
+            <result property="bizType" column="BIZ_TYPE" jdbcType="VARCHAR"/>
+            <result property="tradeAmount" column="TRADE_AMOUNT" jdbcType="VARCHAR"/>
+            <result property="isApproval" column="IS_APPROVAL" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        ID,NOW_DAY,FUND_CODE,
+        FUND_NAME,RISK_MSG,DAILY_INSTRUCTION_NO,
+        DEMAND_RATE,MIN_REPO_RATE,PURPOSE,
+        IS_DELETE,CREATE_TIME,CREATE_BY,
+        UPDATE_TIME,UPDATE_BY,BIZ_TYPE,
+        TRADE_AMOUNT,IS_APPROVAL
+    </sql>
+</mapper>

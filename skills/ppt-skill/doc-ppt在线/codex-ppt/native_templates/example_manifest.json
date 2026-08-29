@@ -1,0 +1,63 @@
+{
+  "deck": {
+    "title": "Fund Industry AI Ethics Governance",
+    "eyebrow": "AI ETHICS GOVERNANCE / FUND INDUSTRY",
+    "fontFace": "Microsoft YaHei"
+  },
+  "slides": [
+    {
+      "template_id": "six_risk_hub_spoke_clean",
+      "title": "Six Core Ethical Risk Categories",
+      "subtitle": "Risks connect data, models, process, organization, and market transmission.",
+      "center": {
+        "title": "Fund Industry",
+        "body": "AI Use"
+      },
+      "axis_labels": {
+        "left": "Investor Protection",
+        "right": "Investor Protection",
+        "bottom": "Financial Stability"
+      },
+      "items": [
+        {
+          "number": "01",
+          "title": "Data Privacy",
+          "body": "Business boundary / investor rights",
+          "tone": "gray"
+        },
+        {
+          "number": "02",
+          "title": "Model Opacity",
+          "body": "Explainability / audit trail",
+          "tone": "red"
+        },
+        {
+          "number": "03",
+          "title": "Algorithm Bias",
+          "body": "Suitability / fair treatment",
+          "tone": "cream"
+        },
+        {
+          "number": "04",
+          "title": "Agency Conflict",
+          "body": "Duty of care / responsibility",
+          "tone": "cream"
+        },
+        {
+          "number": "05",
+          "title": "Accountability",
+          "body": "RACI matrix / review log",
+          "tone": "sand"
+        },
+        {
+          "number": "06",
+          "title": "Systemic Risk",
+          "body": "Liquidity / false information",
+          "tone": "soft"
+        }
+      ],
+      "takeaway": "Risks are not isolated points; they form chains across data, models, process, organization, and market transmission.",
+      "notes": "Use this slide to explain the fixed hub-spoke Route B template."
+    }
+  ]
+}

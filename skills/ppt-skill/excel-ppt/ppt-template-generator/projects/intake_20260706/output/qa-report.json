@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "stage": "step_6_pptx_qa",
+  "generatedAt": "2026-08-02T12:10:07.016734+00:00",
+  "projectDir": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706",
+  "pptx": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\output\\fund-pension-annuity-step3b-draft.pptx",
+  "plan": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\ppt-generation-plan.json",
+  "compositionReport": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\output\\composition-report.json",
+  "summary": {
+    "passed": true,
+    "slideCount": 27,
+    "plannedSlideCount": 27,
+    "plannedVisualAssetCount": 39,
+    "addedImageCount": 39,
+    "ellipsisHitCount": 0,
+    "templatePlaceholderPromptCount": 0,
+    "overflowCount": 0,
+    "incompleteShapeTransformCount": 0,
+    "missingRelationshipTargetCount": 0,
+    "visualSlidesWithoutImagesCount": 0,
+    "slidesMissingLayoutRelationshipCount": 0
+  },
+  "checks": {
+    "pptxZipReadable": true,
+    "slideCountMatchesPlan": true,
+    "relationshipTargetsExist": true,
+    "noVisibleEllipsis": true,
+    "noTemplatePlaceholderPrompts": true,
+    "addedShapesWithinSlide": true,
+    "shapeTransformsComplete": true,
+    "visualAssetCountSatisfied": true,
+    "visualSlidesHaveImages": true,
+    "templateSlideLayoutsPreserved": true
+  },
+  "issues": {
+    "relationshipTargets": [],
+    "ellipsisTexts": [],
+    "templatePlaceholderPrompts": [],
+    "addedShapeOverflows": [],
+    "incompleteShapeTransforms": [],
+    "visualSlidesWithoutImages": [],
+    "slidesMissingLayoutRelationship": []
+  }
+}

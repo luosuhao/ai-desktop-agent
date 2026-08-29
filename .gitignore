@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+tablenet-venv/
+
+# 模型与本地服务（大文件走网盘）
+ollama/
+Qwen2-VL-2B-TableNet-PubTabNet-smallx2-v1/
+
+# 构建产物
+build/
+
+# 运行时数据
+outputs/
+backend/uploads/
+backend/chroma_db/
+backend/wiki_db/
+frontend/chroma_db/
+frontend/uploads/
+frontend/wiki_db/
+
+# 本地配置与敏感信息（含 API 密钥）
+.claude/
+backend/model_config.json
+
+# IDE
+.idea/
+.vscode/

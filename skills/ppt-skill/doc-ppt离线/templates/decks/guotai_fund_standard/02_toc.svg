@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="500" height="720" fill="#F2F2F2"/>
+  </g>
+  <g id="toc-header">
+    <rect x="72" y="0" width="8" height="92" fill="#9E0116"/>
+    <text x="104" y="92" font-family="Arial, Microsoft YaHei, sans-serif" font-size="38" font-weight="bold" fill="#262626">目录</text>
+    <text x="190" y="92" font-family="Arial, sans-serif" font-size="13" letter-spacing="6" fill="#A7A7A7">CONTENTS</text>
+    <image href="brand_logo_header.png" x="1080" y="35" width="126" height="35" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="toc-skyline">
+    <image href="skyline_cover.png" x="0" y="392" width="620" height="270" preserveAspectRatio="xMidYMax meet"/>
+    <rect x="0" y="655" width="1280" height="6" fill="#BF9D5A"/>
+  </g>
+  <g id="toc-item-1">
+    <rect x="545" y="150" width="56" height="40" fill="#9E0116"/>
+    <text x="573" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">01</text>
+    <text x="620" y="176" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#262626">{{TOC_ITEM_1_TITLE}}</text>
+  </g>
+  <g id="toc-item-2">
+    <rect x="545" y="224" width="56" height="40" fill="#9E0116"/>
+    <text x="573" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">02</text>
+    <text x="620" y="250" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#262626">{{TOC_ITEM_2_TITLE}}</text>
+  </g>
+  <g id="toc-item-3">
+    <rect x="545" y="298" width="56" height="40" fill="#9E0116"/>
+    <text x="573" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">03</text>
+    <text x="620" y="324" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#262626">{{TOC_ITEM_3_TITLE}}</text>
+  </g>
+  <g id="toc-item-4">
+    <rect x="545" y="372" width="56" height="40" fill="#9E0116"/>
+    <text x="573" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">04</text>
+    <text x="620" y="398" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#262626">{{TOC_ITEM_4_TITLE}}</text>
+  </g>
+  <g id="toc-item-5">
+    <rect x="545" y="446" width="56" height="40" fill="#9E0116"/>
+    <text x="573" y="474" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">05</text>
+    <text x="620" y="472" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#262626">{{TOC_ITEM_5_TITLE}}</text>
+  </g>
+</svg>

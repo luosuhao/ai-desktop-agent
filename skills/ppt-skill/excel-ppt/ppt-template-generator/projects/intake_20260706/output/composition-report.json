@@ -1,0 +1,470 @@
+{
+  "version": 1,
+  "stage": "step_3b_ooxml_composer",
+  "generatedAt": "2026-08-02T12:09:59.638291+00:00",
+  "compositionMode": "offline_ooxml",
+  "note": "Generated without PowerPoint/WPS/Office COM by editing the PPTX package directly.",
+  "slidePlan": "ppt-template-generator\\projects\\intake_20260706\\ppt-generation-plan.json",
+  "templateFrameMap": "ppt-template-generator\\projects\\intake_20260706\\output\\template-frame-map.json",
+  "sourcePptx": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\templates\\fund-pension-annuity\\source.pptx",
+  "outputPptx": "ppt-template-generator\\projects\\intake_20260706\\output\\fund-pension-annuity-step3b-draft.pptx",
+  "slideCount": 27,
+  "pagination": {
+    "originalSlideCount": 27,
+    "expandedSlideCount": 27,
+    "splitSlideCount": 0,
+    "splits": []
+  },
+  "renderQa": {
+    "enabled": false,
+    "renderSucceeded": false,
+    "renderDir": null,
+    "renderedPngCount": 0,
+    "addedShapeOverflowCount": 0,
+    "textOverflowCount": 0,
+    "issues": {
+      "addedShapeOverflows": [],
+      "textOverflows": []
+    },
+    "skipReason": "disabled_by_cli"
+  },
+  "addedImageCount": 39,
+  "visibleEllipsisCount": 0,
+  "slides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "title": "中国银行股份有限公司企业年金计划 国泰基金组合投资汇报",
+      "role": "cover",
+      "shapeIdEnd": 9,
+      "addedImages": [],
+      "removedInheritedChartShapes": 0,
+      "removedSlidePrivateExtensions": 0
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 2,
+      "title": "目录",
+      "role": "toc",
+      "shapeIdEnd": 61,
+      "addedImages": [],
+      "removedInheritedChartShapes": 0,
+      "removedSlidePrivateExtensions": 0
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 3,
+      "title": "组合业绩分析",
+      "role": "section",
+      "shapeIdEnd": 18,
+      "addedImages": [],
+      "removedInheritedChartShapes": 0,
+      "removedSlidePrivateExtensions": 0
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 4,
+      "title": "组合业绩情况",
+      "role": "content",
+      "shapeIdEnd": 24,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合业绩情况_image_01.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合业绩情况_image_02.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合业绩情况_image_03.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 3,
+      "bulletCount": 4,
+      "textOverflow": false,
+      "fontSize": 12,
+      "usedHeight": 142.8,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 4,
+      "title": "组合业绩归因",
+      "role": "content",
+      "shapeIdEnd": 21,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合业绩归因_block_03_composition_chart.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合业绩归因_block_04_composition_chart.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 2,
+      "bulletCount": 3,
+      "textOverflow": false,
+      "fontSize": 12,
+      "usedHeight": 151.2,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 4,
+      "title": "组合资产配置",
+      "role": "content",
+      "shapeIdEnd": 26,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合资产配置_image_01.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合资产配置_image_02.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合资产配置_block_07_styled_table_image.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 3,
+      "bulletCount": 5,
+      "textOverflow": false,
+      "fontSize": 9,
+      "usedHeight": 195.3,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 4,
+      "title": "今年以来资产配置回顾",
+      "role": "content",
+      "shapeIdEnd": 25,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\今年以来资产配置回顾_image_01.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\今年以来资产配置回顾_image_02.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 2,
+      "bulletCount": 5,
+      "textOverflow": false,
+      "fontSize": 12,
+      "usedHeight": 155.4,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 3,
+      "title": "投资操作回顾",
+      "role": "section",
+      "shapeIdEnd": 18,
+      "addedImages": [],
+      "removedInheritedChartShapes": 0,
+      "removedSlidePrivateExtensions": 0
+    },
+    {
+      "outputSlide": 9,
+      "sourceSlide": 4,
+      "title": "组合固收投资回顾",
+      "role": "content",
+      "shapeIdEnd": 23,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_01.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_02.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 2,
+      "bulletCount": 4,
+      "textOverflow": false,
+      "fontSize": 12,
+      "usedHeight": 142.8,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 10,
+      "sourceSlide": 4,
+      "title": "组合固收投资回顾（2）",
+      "role": "content",
+      "shapeIdEnd": 17,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_04.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_03.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 2,
+      "bulletCount": 1,
+      "textOverflow": false,
+      "fontSize": 12,
+      "usedHeight": 21.0,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 11,
+      "sourceSlide": 4,
+      "title": "组合固收投资回顾（3）",
+      "role": "content",
+      "shapeIdEnd": 17,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_05.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_06.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 2,
+      "bulletCount": 1,
+      "textOverflow": false,
+      "fontSize": 12,
+      "usedHeight": 21.0,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 12,
+      "sourceSlide": 4,
+      "title": "组合固收投资回顾（4）",
+      "role": "content",
+      "shapeIdEnd": 22,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_07.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_08.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_09.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 3,
+      "bulletCount": 3,
+      "textOverflow": false,
+      "fontSize": 12,
+      "usedHeight": 151.2,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 13,
+      "sourceSlide": 4,
+      "title": "组合固收投资回顾（5）",
+      "role": "content",
+      "shapeIdEnd": 13,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合固收投资回顾_block_17_category_chart.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 1,
+      "bulletCount": 0,
+      "textOverflow": false,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 14,
+      "sourceSlide": 4,
+      "title": "组合权益投资回顾",
+      "role": "content",
+      "shapeIdEnd": 22,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_01.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_02.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_03.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 3,
+      "bulletCount": 3,
+      "textOverflow": false,
+      "fontSize": 12,
+      "usedHeight": 172.2,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 15,
+      "sourceSlide": 4,
+      "title": "组合权益投资回顾（2）",
+      "role": "content",
+      "shapeIdEnd": 18,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_09.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_10.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合权益投资回顾_block_14_styled_table_image.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 3,
+      "bulletCount": 1,
+      "textOverflow": false,
+      "fontSize": 12,
+      "usedHeight": 42.0,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 16,
+      "sourceSlide": 4,
+      "title": "组合权益投资回顾（3）",
+      "role": "content",
+      "shapeIdEnd": 14,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合权益投资回顾_block_16_composition_chart_p01.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合权益投资回顾_block_16_composition_chart_p02.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 2,
+      "bulletCount": 0,
+      "textOverflow": false,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 17,
+      "sourceSlide": 3,
+      "title": "下阶段市场研判及组合操作策略",
+      "role": "section",
+      "shapeIdEnd": 18,
+      "addedImages": [],
+      "removedInheritedChartShapes": 0,
+      "removedSlidePrivateExtensions": 0
+    },
+    {
+      "outputSlide": 18,
+      "sourceSlide": 4,
+      "title": "市场回顾",
+      "role": "content",
+      "shapeIdEnd": 20,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_01.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_02.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_03.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 3,
+      "bulletCount": 2,
+      "textOverflow": false,
+      "fontSize": 12,
+      "usedHeight": 54.6,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 19,
+      "sourceSlide": 4,
+      "title": "市场回顾（2）",
+      "role": "content",
+      "shapeIdEnd": 18,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_04.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_05.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_06.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 3,
+      "bulletCount": 1,
+      "textOverflow": false,
+      "fontSize": 12,
+      "usedHeight": 63.0,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 20,
+      "sourceSlide": 4,
+      "title": "投资策略",
+      "role": "content",
+      "shapeIdEnd": 23,
+      "addedImages": [],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 0,
+      "bulletCount": 5,
+      "textOverflow": false,
+      "fontSize": 15,
+      "usedHeight": 325.5,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 21,
+      "sourceSlide": 4,
+      "title": "投资策略（2）",
+      "role": "content",
+      "shapeIdEnd": 19,
+      "addedImages": [],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 0,
+      "bulletCount": 3,
+      "textOverflow": false,
+      "fontSize": 15,
+      "usedHeight": 136.5,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 22,
+      "sourceSlide": 3,
+      "title": "补充数据图表",
+      "role": "section",
+      "shapeIdEnd": 18,
+      "addedImages": [],
+      "removedInheritedChartShapes": 0,
+      "removedSlidePrivateExtensions": 0
+    },
+    {
+      "outputSlide": 23,
+      "sourceSlide": 4,
+      "title": "养老金产品时序图_数据",
+      "role": "content",
+      "shapeIdEnd": 13,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\养老金产品时序图_数据_block_01_trend_chart.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 1,
+      "bulletCount": 0,
+      "textOverflow": false,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 24,
+      "sourceSlide": 4,
+      "title": "组合可转债仓位变动情况（穿透后）_数据",
+      "role": "content",
+      "shapeIdEnd": 13,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合可转债仓位变动情况_穿透后_数据_block_01_trend_chart.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 1,
+      "bulletCount": 0,
+      "textOverflow": false,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 25,
+      "sourceSlide": 4,
+      "title": "可转债正股行业时序图(不穿透)_数据",
+      "role": "content",
+      "shapeIdEnd": 13,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\可转债正股行业时序图_不穿透_数据_block_01_category_chart.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 1,
+      "bulletCount": 0,
+      "textOverflow": false,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 26,
+      "sourceSlide": 4,
+      "title": "可转债正股行业时序图(穿透)_数据",
+      "role": "content",
+      "shapeIdEnd": 14,
+      "addedImages": [
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\可转债正股行业时序图_穿透_数据_block_01_category_chart_p01.png",
+        "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\可转债正股行业时序图_穿透_数据_block_01_category_chart_p02.png"
+      ],
+      "layout": "summary_plus_chart_grid",
+      "visualCount": 2,
+      "bulletCount": 0,
+      "textOverflow": false,
+      "removedInheritedChartShapes": 1,
+      "removedSlidePrivateExtensions": 2
+    },
+    {
+      "outputSlide": 27,
+      "sourceSlide": 18,
+      "title": "封底",
+      "role": "closing",
+      "shapeIdEnd": 3,
+      "addedImages": [],
+      "removedInheritedChartShapes": 0,
+      "removedSlidePrivateExtensions": 0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://codex.local/schemas/visual-assets.schema.json",
+  "title": "PPT Visual Assets",
+  "type": "object",
+  "required": ["version", "sourceManifest", "generatedAt", "summary", "visualAssets"],
+  "properties": {
+    "version": {"type": "integer", "const": 1},
+    "sourceManifest": {"type": "string"},
+    "styleSourcePptx": {"type": ["string", "null"]},
+    "generatedAt": {"type": "string"},
+    "stylePresets": {"type": "object", "additionalProperties": true},
+    "summary": {"type": "object", "additionalProperties": true},
+    "visualAssets": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/visualAsset"}
+    }
+  },
+  "$defs": {
+    "visualAsset": {
+      "type": "object",
+      "required": ["visualId", "sourceBlockId", "status", "renderType", "title"],
+      "properties": {
+        "visualId": {"type": "string"},
+        "sourceGroupId": {"type": "string"},
+        "sourceSheet": {"type": "string"},
+        "sourceBlockId": {"type": "string"},
+        "sourceRange": {"type": "string"},
+        "relativeSourceDataPath": {"type": "string"},
+        "renderType": {"type": "string", "enum": ["table_image", "chart_image", "table_reference"]},
+        "chartKind": {"type": "string"},
+        "stylePreset": {"type": "string"},
+        "title": {"type": "string"},
+        "status": {"type": "string"},
+        "reason": {"type": "string"},
+        "relativePath": {"type": "string"}
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

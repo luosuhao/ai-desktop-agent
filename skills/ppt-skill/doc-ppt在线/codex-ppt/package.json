@@ -1,0 +1,8 @@
+{
+  "name": "codex-ppt-native-runtime",
+  "private": true,
+  "description": "Node dependencies for codex-ppt Route B native editable rebuild.",
+  "dependencies": {
+    "pptxgenjs": "*"
+  }
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <g id="background">
+    <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="330" height="720" fill="#F2F2F2"/>
+  </g>
+  <g id="chapter-logo">
+    <image href="brand_logo_header.png" x="1080" y="42" width="126" height="35" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="72" y="50" width="400" height="4" fill="#9E0116"/>
+  </g>
+  <g id="chapter-number">
+    <rect x="70" y="208" width="230" height="92" fill="#9E0116"/>
+    <text x="185" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">{{CHAPTER_NUM}}</text>
+  </g>
+  <g id="chapter-title">
+    <text x="370" y="252" font-family="Arial, Microsoft YaHei, sans-serif" font-size="40" font-weight="bold" fill="#262626">{{CHAPTER_TITLE}}</text>
+    <line x1="370" y1="282" x2="1000" y2="282" stroke="#D9D9D9" stroke-width="2"/>
+    <text x="370" y="330" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" fill="#706F71">{{CHAPTER_DESC}}</text>
+  </g>
+  <g id="chapter-skyline">
+    <image href="skyline_cover.png" x="0" y="430" width="1280" height="230" preserveAspectRatio="xMidYMax meet"/>
+    <rect x="0" y="655" width="1280" height="6" fill="#BF9D5A"/>
+  </g>
+</svg>

@@ -1,0 +1,255 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://codex.local/schemas/excel-content-manifest.schema.json",
+  "title": "Excel Content Manifest",
+  "type": "object",
+  "required": ["version", "sourceWorkbook", "generatedAt", "sheets", "contentGroups"],
+  "properties": {
+    "version": {"type": "integer", "const": 1},
+    "sourceWorkbook": {"type": "string"},
+    "generatedAt": {"type": "string"},
+    "deckMeta": {"type": "object", "additionalProperties": true},
+    "pictureAssetsDir": {"type": "string"},
+    "tablesDir": {"type": "string"},
+    "tableAssetsDir": {"type": "string"},
+    "sheets": {"type": "array", "items": {"$ref": "#/$defs/sheetSummary"}},
+    "contentGroups": {"type": "array", "items": {"$ref": "#/$defs/contentGroup"}}
+  },
+  "$defs": {
+    "sheetSummary": {
+      "type": "object",
+      "required": ["name", "kind", "dimension"],
+      "properties": {
+        "name": {"type": "string"},
+        "kind": {"type": "string", "enum": ["metadata", "report", "data"]},
+        "dimension": {"type": "string"},
+        "rowCount": {"type": "integer"},
+        "cellCount": {"type": "integer"},
+        "mergeCount": {"type": "integer"},
+        "imageCount": {"type": "integer"}
+      },
+      "additionalProperties": true
+    },
+    "contentGroup": {
+      "type": "object",
+      "required": ["groupId", "sheet", "kind", "title", "cellBlocks", "textNotes", "tableAssets", "imageAssets"],
+      "properties": {
+        "groupId": {"type": "string"},
+        "sheet": {"type": "string"},
+        "kind": {"type": "string"},
+        "title": {"type": "string"},
+        "cellBlocks": {"type": "array", "items": {"$ref": "#/$defs/cellBlock"}},
+        "textNotes": {"type": "array", "items": {"$ref": "#/$defs/textNote"}},
+        "metricAssets": {"type": "array", "items": {"$ref": "#/$defs/cellBlock"}},
+        "tableAssets": {"type": "array", "items": {"$ref": "#/$defs/tableAsset"}},
+        "imageAssets": {"type": "array", "items": {"$ref": "#/$defs/imageAsset"}},
+        "structuredContent": {"$ref": "#/$defs/structuredContent"},
+        "generatedVisualAssets": {"type": "array", "items": {"$ref": "#/$defs/generatedVisualAsset"}},
+        "generatedChartAssets": {"type": "array", "items": {"$ref": "#/$defs/generatedChartAsset"}},
+        "generatedTableVisualAssets": {"type": "array", "items": {"$ref": "#/$defs/generatedVisualAsset"}},
+        "recommendedSlidePlan": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "textNote": {
+      "type": "object",
+      "required": ["range", "role", "text"],
+      "properties": {
+        "range": {"type": "string"},
+        "role": {"type": "string"},
+        "text": {"type": "string"},
+        "recommendedUse": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "cellBlock": {
+      "type": "object",
+      "required": ["blockId", "range", "blockType", "dataPath", "relativeDataPath", "recommendedAction"],
+      "properties": {
+        "blockId": {"type": "string"},
+        "range": {"type": "string"},
+        "blockType": {
+          "type": "string",
+          "enum": ["text_block", "data_table", "metric_table", "mixed_table"]
+        },
+        "dataPath": {"type": "string"},
+        "relativeDataPath": {"type": "string"},
+        "tableWorkbookPath": {"type": "string"},
+        "relativeTableWorkbookPath": {"type": "string"},
+        "fullDataIncluded": {"type": "boolean"},
+        "rowCount": {"type": "integer"},
+        "colCount": {"type": "integer"},
+        "nonEmptyCellCount": {"type": "integer"},
+        "blankCellCount": {"type": "integer"},
+        "textCellCount": {"type": "integer"},
+        "numericCellCount": {"type": "integer"},
+        "formulaCellCount": {"type": "integer"},
+        "longTextCellCount": {"type": "integer"},
+        "textCellRatio": {"type": "number"},
+        "numericCellRatio": {"type": "number"},
+        "exportedColCount": {"type": "integer"},
+        "removedBlankColumns": {"type": "array", "items": {"type": "integer"}},
+        "sizeClass": {"type": "string"},
+        "recommendedAction": {"type": "string"},
+        "sampleRows": {"type": "array"},
+        "text": {"type": "string"},
+        "captionText": {"type": "string"},
+        "captionRows": {"type": "array"},
+        "selectedVisualAssets": {"type": "array"},
+        "pythonVisualAssets": {"type": "array"},
+        "associatedImageIds": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "tableAsset": {
+      "type": "object",
+      "required": ["blockId", "range", "blockType", "sizeClass", "recommendedAction"],
+      "properties": {
+        "blockId": {"type": "string"},
+        "range": {"type": "string"},
+        "blockType": {"type": "string"},
+        "dataPath": {"type": "string"},
+        "relativeDataPath": {"type": "string"},
+        "tableWorkbookPath": {"type": "string"},
+        "relativeTableWorkbookPath": {"type": "string"},
+        "fullDataIncluded": {"type": "boolean"},
+        "sizeClass": {"type": "string"},
+        "recommendedAction": {"type": "string"},
+        "rowCount": {"type": "integer"},
+        "colCount": {"type": "integer"},
+        "exportedColCount": {"type": "integer"},
+        "removedBlankColumns": {"type": "array", "items": {"type": "integer"}},
+        "textCellRatio": {"type": "number"},
+        "numericCellRatio": {"type": "number"},
+        "captionText": {"type": "string"},
+        "captionRows": {"type": "array"},
+        "sampleRows": {"type": "array"},
+        "pythonVisualPath": {"type": "string"},
+        "pythonVisualAssets": {"type": "array"},
+        "selectedVisualPath": {"type": "string"},
+        "selectedVisualAssets": {"type": "array"}
+      },
+      "additionalProperties": true
+    },
+    "imageAsset": {
+      "type": "object",
+      "required": ["path", "anchor"],
+      "properties": {
+        "imageId": {"type": "string"},
+        "path": {"type": "string"},
+        "anchor": {"type": "string"},
+        "name": {"type": "string"},
+        "mediaType": {"type": "string"},
+        "recommendedAction": {"type": "string"},
+        "nearbyText": {"type": "string"},
+        "nearbyTextBlocks": {"type": "array"},
+        "relatedCellBlocks": {"type": "array"}
+      },
+      "additionalProperties": true
+    },
+    "structuredContent": {
+      "type": "object",
+      "required": ["title", "textContent", "tables", "pictures"],
+      "properties": {
+        "title": {"type": "string"},
+        "textContent": {"type": "array", "items": {"$ref": "#/$defs/structuredTextItem"}},
+        "tables": {"type": "array", "items": {"$ref": "#/$defs/structuredTableItem"}},
+        "pictures": {"type": "array", "items": {"$ref": "#/$defs/structuredPictureItem"}}
+      },
+      "additionalProperties": true
+    },
+    "structuredTextItem": {
+      "type": "object",
+      "required": ["index", "text"],
+      "properties": {
+        "index": {"type": "integer"},
+        "role": {"type": "string"},
+        "range": {"type": "string"},
+        "sourceBlockId": {"type": "string"},
+        "text": {"type": "string"},
+        "summary": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "structuredTableItem": {
+      "type": "object",
+      "required": ["index", "sourceBlockId", "description"],
+      "properties": {
+        "index": {"type": "integer"},
+        "sourceBlockId": {"type": "string"},
+        "range": {"type": "string"},
+        "rowCount": {"type": "integer"},
+        "colCount": {"type": "integer"},
+        "blockType": {"type": "string"},
+        "description": {"type": "string"},
+        "captionText": {"type": "string"},
+        "captionRows": {"type": "array"},
+        "relativeDataPath": {"type": "string"},
+        "relativeTableWorkbookPath": {"type": "string"},
+        "pythonVisualPath": {"type": "string"},
+        "pythonVisualAssets": {"type": "array"},
+        "selectedVisualPath": {"type": "string"},
+        "selectedVisualAssets": {"type": "array"}
+      },
+      "additionalProperties": true
+    },
+    "structuredPictureItem": {
+      "type": "object",
+      "required": ["index", "description"],
+      "properties": {
+        "index": {"type": "integer"},
+        "imageId": {"type": "string"},
+        "name": {"type": "string"},
+        "anchor": {"type": "string"},
+        "description": {"type": "string"},
+        "relativePath": {"type": "string"},
+        "nearbyText": {"type": "string"},
+        "nearbyTextBlocks": {"type": "array"}
+      },
+      "additionalProperties": true
+    },
+    "generatedChartAsset": {
+      "type": "object",
+      "required": ["chartId", "sourceBlockId", "status", "title"],
+      "properties": {
+        "chartId": {"type": "string"},
+        "sourceGroupId": {"type": "string"},
+        "sourceSheet": {"type": "string"},
+        "sourceBlockId": {"type": "string"},
+        "sourceRange": {"type": "string"},
+        "sourceDataPath": {"type": "string"},
+        "relativeSourceDataPath": {"type": "string"},
+        "chartKind": {"type": "string"},
+        "title": {"type": "string"},
+        "status": {"type": "string"},
+        "path": {"type": "string"},
+        "relativePath": {"type": "string"},
+        "recommendedUse": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "generatedVisualAsset": {
+      "type": "object",
+      "required": ["visualId", "sourceBlockId", "status", "renderType", "title"],
+      "properties": {
+        "visualId": {"type": "string"},
+        "sourceGroupId": {"type": "string"},
+        "sourceSheet": {"type": "string"},
+        "sourceBlockId": {"type": "string"},
+        "sourceRange": {"type": "string"},
+        "sourceDataPath": {"type": "string"},
+        "relativeSourceDataPath": {"type": "string"},
+        "renderType": {"type": "string", "enum": ["table_image", "chart_image", "table_reference"]},
+        "chartKind": {"type": "string"},
+        "stylePreset": {"type": "string"},
+        "title": {"type": "string"},
+        "status": {"type": "string"},
+        "reason": {"type": "string"},
+        "path": {"type": "string"},
+        "relativePath": {"type": "string"}
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

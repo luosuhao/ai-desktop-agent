@@ -1,0 +1,55 @@
+--- 
++++ 
+@@ -217,7 +217,7 @@
+ 
+ These modes are mutually exclusive:
+ 
+-- Free design uses the built-in PPTX only as a **non-binding design reference**. Extract canvas, theme colors, fonts, observed visual usage, slide geometry, and layout/page-type candidates. Never use its slide text, numbers, tables, or narrative as content. The user's document/Markdown remains the sole content contract.
++- Free design means **narrative and page construction are free, not visual identity is discarded**. The built-in PPTX is the free-design route's **soft-locked identity baseline**: its extracted palette MUST become color candidate A and the pre-selected default; its fonts, observed visual usage, slide geometry, and layout rhythm are priority recommendation evidence. Storyline, page count, page order, and concrete page composition remain free. The palette may change only when the user explicitly selects or states another color direction in the Eight Confirmations. Never use the PPTX's slide text, numbers, tables, or narrative as content. The user's document/Markdown remains the sole content contract.
+ - Fixed deck mode does **not** run the built-in style-PPTX intake. The registered deck's identity and structure are the template contract.
+ - Style descriptions ("麦肯锡风格" / "Keynote 风" / "极简风" / etc.) do not select fixed deck mode; they remain Strategist style briefs inside the free-design route unless the user also positively asks to use the template.
+ - Inside the main pipeline, the bare phrase "使用模板" is reserved for the built-in fixed deck. Outside Step 3, `template-fill` is selected only when the top-level route gate has already confirmed all three native-PPTX-fill prerequisites above; Step 3 itself never redirects to `template-fill`.
+@@ -229,6 +229,15 @@
+ ```
+ 
+ Before running it, verify `${SKILL_DIR}/templates/页面素材.pptx` exists. If it is missing or intake fails, report the missing/broken built-in resource and stop; do not silently continue without the intended design reference.
++
++**Immediate DNA read gate — mandatory before Step 4**:
++
++1. Read `<project_path>/analysis/design_reference/source_profile.json`.
++2. Read `<project_path>/analysis/design_reference/页面素材.identity.json` in full.
++3. Read the page-type / slot-geometry portions of `<project_path>/analysis/design_reference/页面素材.slide_library.json`; never consume its text or data as content.
++4. Write `<project_path>/analysis/design_reference/dna_summary.md` with the source path, canvas, slide count, theme palette, theme fonts, observed dominant colors/fonts, reusable page types/layout rhythms, and this inheritance contract: `palette = candidate A + pre-selected default; narrative/page count/order/composition = free`.
++
++Do not enter Strategist until `dna_summary.md` exists and its palette values agree with `页面素材.identity.json`. For the currently bundled `页面素材.pptx`, the expected source-derived default mapping is background `#FFFFFF`, secondary background `#F4EDE5`, primary `#9E0116`, accent `#BF9D5A`, secondary accent `#5D070C`, and a near-black body text such as `#1A1A1A`; if the extracted identity changes in a future replacement file, regenerate the mapping from the live JSON rather than preserving these literals.
+ 
+ **Fixed-deck validation**:
+ 
+@@ -354,7 +363,7 @@
+ 
+ **`<project_path>/analysis/` is the project's intermediate-analysis folder: the canonical home for machine-extracted source/asset facts — the PPTX intake bundle (`source_profile.json` index + per-deck `<stem>.identity.json` / `<stem>.slide_library.json`) and `image_analysis.csv`. It holds facts, not design contracts — `design_spec.md` / `spec_lock.md` stay at the project root.** The MUST-read contract covers only the **compact structured data files (`.json` / `.csv`)**; other artifacts that may live under `analysis/` (e.g. a beautify `source_svg_import/` vector reference package) are NOT bulk-read — they are read selectively only when a specific workflow step calls for them. Before the Eight Confirmations, Strategist MUST read the auto-extracted fact files already in `analysis/` — currently top-level `source_profile.json` (user-supplied PPTX intake), when present. This file is the multi-deck index: read it once for the `decks[]` digests (canvas / chart / table entries per source deck), then open a specific deck's `<stem>.identity.json` / `<stem>.slide_library.json` only if you need its full raw facts. Use these top-level entries as **factual source context** (format default + content facts); when several user-supplied decks are present, synthesize across all of them. The source's **palette / typography / visual identity are a reference, not a constraint**: the main pipeline may inherit them where they fit the content and the confirmed style, or design fresh where they don't — the Strategist's judgment, never an obligation to either keep or discard. (Template-fill preserves the native source design by editing cloned slides directly; beautify defaults to the source identity but still follows the confirmed values; the main pipeline treats source identity as reference only and defaults to fresh design.) (`image_analysis.csv` lands later, at the image-analysis step below, and is the authoritative regenerated image-fact view there — re-derived from the live `images/` folder, not a durable store.)
+ 
+-**Built-in free-design reference — separate channel, mandatory only in free-design mode.** Read `<project_path>/analysis/design_reference/source_profile.json`, then its referenced `页面素材.identity.json` and only the geometry/page-type portions of `页面素材.slide_library.json` needed for layout reasoning. Treat this channel as design DNA only: canvas, palette, fonts, visual usage, geometry, and layout rhythm are recommendation evidence, never locked constraints. Ignore all slide text, numbers, tables, charts, and narrative from this built-in PPTX. Do not cite or transfer them into the outline. In fixed-deck or advanced-template mode, this `design_reference/` channel is absent and MUST NOT be synthesized with the selected template.
++**Built-in free-design reference — separate channel, mandatory only in free-design mode.** Re-read `<project_path>/analysis/design_reference/dna_summary.md` before authoring the Eight Confirmations; if it is missing, return to Step 3's Immediate DNA read gate. Treat the channel as design DNA only. Its palette is a **soft lock**: color candidate A MUST reproduce the source-derived palette, MUST be named as source/template heritage, and MUST be pre-selected (`color.selected: 0`). Candidates B/C may offer real alternatives, but industry defaults such as finance navy or tech blue MUST NOT replace candidate A merely because they fit the document topic. The source fonts, visual usage, geometry, and layout rhythm remain priority recommendation evidence rather than exact replica constraints. Ignore all slide text, numbers, tables, charts, and narrative from this built-in PPTX. Do not cite or transfer them into the outline. In fixed-deck or advanced-template mode, this `design_reference/` channel is absent and MUST NOT be synthesized with the selected template.
+ 
+ **Channel ownership — read each fact once from its owning channel.** In the main pipeline the **content contract is the Markdown** (`sources/<stem>.md`): text, tables, and chart data values all come from there (`ppt_to_md` now transcribes native chart data into Markdown tables). The top-level `analysis/` chart / table entries are a **structural digest** for outline decisions (which user-supplied slides carried charts, type, series names) — not a second copy of the values; do NOT also pull chart values from a top-level `<stem>.slide_library.json` in the main pipeline. The only main-pipeline exception is the separate built-in `analysis/design_reference/页面素材.slide_library.json`, from which free-design mode may read geometry/page-type information only, never content or data. Full structured data from user-supplied PPTX sources is owned by the direct-PPTX workflows: template-fill uses it as the native fill contract; beautify uses it for native chart / table data while keeping slide text from the Markdown.
+ 
+@@ -370,6 +379,8 @@
+ 6. Icon usage approach
+ 7. Typography plan, including formula rendering policy
+ 8. Image usage approach
++
++**Free-design color candidate contract (Mandatory)**: when `analysis/design_reference/dna_summary.md` exists, `recommendations.json.color.candidates[0]` MUST be the source-heritage palette derived from it and `color.selected` MUST be `0`. The candidate note must say it comes from the built-in reference PPTX. Other palettes remain selectable alternatives. A plain user confirmation keeps candidate A; only an explicit user color choice/override may replace it. The confirmed palette is then written identically to `design_spec.md §III` and `spec_lock.md colors`.
+ 
+ **Confirm UI Auto-Launch (Mandatory — default visual confirmation surface)**: by default the Eight Confirmations are presented through an interactive local page (color swatches, live font previews, candidate picks); the chat path is the always-valid fallback. Steps:
+ 
+@@ -450,7 +461,8 @@
+ **✅ Checkpoint — Phase deliverables complete, auto-proceed to next step**:
+ ```markdown
+ ## ✅ Strategist Phase Complete
+-- [x] Read the auto-extracted source facts already in `analysis/` and, in free-design mode, the separate built-in design-reference facts under `analysis/design_reference/` before the Eight Confirmations
++- [x] Read the auto-extracted source facts already in `analysis/` and, in free-design mode, wrote/re-read `analysis/design_reference/dna_summary.md` before the Eight Confirmations
++- [x] In free-design mode, color candidate A reproduced the source-derived palette and was pre-selected; any different locked palette came from an explicit user choice
+ - [x] Eight Confirmations completed (user confirmed via Confirm UI `result.json` or chat fallback)
+ - [x] Split-mode note appended below the eight items (heavy or normal variant)
+ - [x] Spec-refinement opt-in line appended (default OFF; only the user's explicit request enters the refine-spec workflow)

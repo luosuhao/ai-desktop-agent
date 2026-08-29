@@ -1,0 +1,1622 @@
+{
+  "version": 1,
+  "stage": "Step 3A-new",
+  "generatedAt": "2026-08-02T12:09:51.131721+00:00",
+  "projectDir": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706",
+  "template": {
+    "templateId": "fund-pension-annuity",
+    "registry": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\templates\\fund-pension-annuity\\layout-registry.json",
+    "sourcePptx": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\templates\\fund-pension-annuity\\source.pptx"
+  },
+  "rules": {
+    "coverTocSection": "replace text only; preserve all template styling, logos, backgrounds, and lines",
+    "closing": "leave unchanged",
+    "content": "semi-free inside content-safe zone; preserve title/logo/footer/chrome",
+    "density": "compact: pack up to 3 visuals and up to 5 concise viewpoint bullets per content slide",
+    "text": "displayText is slide-ready; sourceText keeps the full editable source"
+  },
+  "summary": {
+    "slideCount": 27,
+    "contentSlideCount": 20,
+    "sectionCount": 4,
+    "sheetCount": 12,
+    "visualAssetCount": 39,
+    "deferredVisualAssetCount": 19,
+    "pictureAssetCount": 27,
+    "pythonTableAssetCount": 12,
+    "viewpointBulletCount": 41,
+    "deferredBulletCount": 1,
+    "missingVisualAssetCount": 0,
+    "maxVisualsPerContentSlide": 3
+  },
+  "sections": [
+    {
+      "sectionId": "01",
+      "title": "组合业绩分析",
+      "groupIds": [
+        "组合业绩情况",
+        "组合业绩归因",
+        "组合资产配置",
+        "今年以来资产配置回顾"
+      ]
+    },
+    {
+      "sectionId": "02",
+      "title": "投资操作回顾",
+      "groupIds": [
+        "组合固收投资回顾",
+        "组合权益投资回顾"
+      ]
+    },
+    {
+      "sectionId": "03",
+      "title": "下阶段市场研判及组合操作策略",
+      "groupIds": [
+        "市场回顾",
+        "投资策略"
+      ]
+    },
+    {
+      "sectionId": "04",
+      "title": "补充数据图表",
+      "groupIds": [
+        "养老金产品时序图_数据",
+        "组合可转债仓位变动情况_穿透后_数据",
+        "可转债正股行业时序图_不穿透_数据",
+        "可转债正股行业时序图_穿透_数据"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "slideNumber": 1,
+      "slideId": "s001",
+      "role": "cover",
+      "title": "中国银行股份有限公司企业年金计划 国泰基金组合投资汇报",
+      "template": {
+        "role": "cover",
+        "sourceSlide": 1,
+        "pptLayoutName": "封面",
+        "layoutTarget": "ppt/slideLayouts/slideLayout1.xml"
+      },
+      "content": {
+        "title": "中国银行股份有限公司企业年金计划 国泰基金组合投资汇报",
+        "date": "2026年7月"
+      },
+      "layoutHint": {
+        "editPolicy": "text_only_preserve_style"
+      }
+    },
+    {
+      "slideNumber": 2,
+      "slideId": "s002",
+      "role": "toc",
+      "title": "目录",
+      "template": {
+        "role": "toc",
+        "sourceSlide": 2,
+        "pptLayoutName": "目录",
+        "layoutTarget": "ppt/slideLayouts/slideLayout3.xml"
+      },
+      "content": {
+        "items": [
+          {
+            "index": "01",
+            "title": "组合业绩分析"
+          },
+          {
+            "index": "02",
+            "title": "投资操作回顾"
+          },
+          {
+            "index": "03",
+            "title": "下阶段市场研判及组合操作策略"
+          }
+        ]
+      },
+      "layoutHint": {
+        "editPolicy": "text_only_preserve_style"
+      }
+    },
+    {
+      "slideNumber": 3,
+      "slideId": "s003",
+      "role": "section",
+      "title": "组合业绩分析",
+      "template": {
+        "role": "section",
+        "sourceSlide": 3,
+        "pptLayoutName": "章节页",
+        "layoutTarget": "ppt/slideLayouts/slideLayout4.xml"
+      },
+      "content": {
+        "sectionIndex": "01",
+        "sectionTitle": "组合业绩分析"
+      },
+      "layoutHint": {
+        "editPolicy": "text_only_preserve_style"
+      }
+    },
+    {
+      "slideNumber": 4,
+      "slideId": "s004",
+      "role": "content",
+      "title": "组合业绩情况",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "组合业绩情况",
+        "groupId": "组合业绩情况",
+        "markdown": "sheet-md-assets/组合业绩情况.md",
+        "contentBlocks": [
+          "组合业绩情况_block_01"
+        ],
+        "bullets": [
+          {
+            "sourceText": "组合成立于2008年12月26日，截至2023年3月31日，组合资产净值达到61.3亿元，自运作以来累计实现131.19%的收益率，复合年化收益率为6.05%；最大回撤为6.45%，波动率为3.18%，夏普比率为1.59，var值为0.33；2023年1月1日-2023年3月31日实现收益2.63%；年化收益率为11.23%，较同期业绩基准（0.00%）实现了（11.23%）的超额收益。2023年1月1日-2023年3月31日，组合已实现收益率为2.63%，最大回撤为0.42%，波动率为1.91%，夏普比率为5.25，var值为0.20；当季度实现收益率为2.63%；当月实现收益率为0.19%。 投资经理 胡松,曾彪,张倩",
+            "displayText": "组合成立于2008年12月26日，截至2023年3月31日，组合资产净值达到61.3亿元，自运作以来累计实现131.19%的收益率，复合年化收益率为6.05%；2023年1月1日-2023年3月31日实现收益2.63%。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "3月31日单位净值 2.31189314751457",
+            "displayText": "3月31日单位净值 2.31189314751457",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "最新资产净值（亿元） 61.34461489",
+            "displayText": "最新资产净值（亿元） 61.34461489",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "报告期收益率（%） 2.63340607022445 业绩归因收益率校验：一致",
+            "displayText": "报告期收益率（%） 2.63340607022445 业绩归因收益率校验：一致",
+            "textTreatment": "clean_and_compact"
+          }
+        ],
+        "visualAssets": [
+          {
+            "relativePath": "picture-assets/组合业绩情况_image_01.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合业绩情况_image_01.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "strongest_related_visual_for_text_block"
+          },
+          {
+            "relativePath": "picture-assets/组合业绩情况_image_02.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合业绩情况_image_02.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "strongest_related_visual_for_text_block"
+          },
+          {
+            "relativePath": "picture-assets/组合业绩情况_image_03.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合业绩情况_image_03.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "strongest_related_visual_for_text_block"
+          }
+        ],
+        "deferredVisualAssets": [
+          {
+            "relativePath": "picture-assets/组合业绩情况_image_04.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合业绩情况_image_04.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "picture-assets/组合业绩情况_image_05.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合业绩情况_image_05.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "python_table/组合业绩情况_block_08_trend_chart.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合业绩情况_block_08_trend_chart.png",
+            "assetRoot": "python_table",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "python_table/组合业绩情况_block_09_trend_chart.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合业绩情况_block_09_trend_chart.png",
+            "assetRoot": "python_table",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "python_table/组合业绩情况_block_10_trend_chart.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合业绩情况_block_10_trend_chart.png",
+            "assetRoot": "python_table",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "python_table/组合业绩情况_block_11_trend_chart.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合业绩情况_block_11_trend_chart.png",
+            "assetRoot": "python_table",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          }
+        ],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "summary_plus_three_visuals",
+        "density": {
+          "compact": true,
+          "visualCount": 3,
+          "deferredVisualCount": 6,
+          "bulletCount": 4,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 5,
+      "slideId": "s005",
+      "role": "content",
+      "title": "组合业绩归因",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "组合业绩归因",
+        "groupId": "组合业绩归因",
+        "markdown": "sheet-md-assets/组合业绩归因.md",
+        "contentBlocks": [
+          "组合业绩归因_block_01"
+        ],
+        "bullets": [
+          {
+            "sourceText": "流动性资产：2023年1月1日-2023年3月31日，组合穿透前流动资产收益贡献0.03%（穿透后0.03%）；",
+            "displayText": "流动性资产：2023年1月1日-2023年3月31日，组合穿透前流动资产收益贡献0.03%（穿透后0.03%）；",
+            "textTreatment": "clean_only"
+          },
+          {
+            "sourceText": "固收方面，2023年1月1日-2023年3月31日，组合固定收益类资产收益贡献1.36%（穿透后1.28%），其中成本计价类资产贡献0.24%（穿透后0.32%），市值计价类资产贡献1.12%（穿透后0.97%）。固定收益类资产收益率1.52%（穿透后1.43%），年化收益率6.29%（穿透后5.91%）。同期中债企业债AAA财富（1-3年）指数、wind中长期纯债型基金指数收益率分别为1.28%、0.97%。",
+            "displayText": "固收方面，2023年1月1日-2023年3月31日，组合固定收益类资产收益贡献1.36%（穿透后1.28%），其中成本计价类资产贡献0.24%（穿透后0.32%），市值计价类资产贡献1.12%（穿透后0.97%）。固定收益类资产收益率1.52%（穿透后1.43%），年化收益率6.29%（穿透后5.91%）。同期中债企业债AAA财富（1-3年）指数、wind中长期纯债型基金指数收益率分别为1.28%、0.97%。",
+            "textTreatment": "clean_only"
+          },
+          {
+            "sourceText": "权益方面，2023年1月1日-2023年3月31日，组合权益类资产收益贡献1.42%（穿透后1.54%），资产收益率8.30%，同期上证指数收益率5.94%（万得），获得了2.36%（组合权益收益率-上证指数同期资产收益率）的超额收益。",
+            "displayText": "权益方面，2023年1月1日-2023年3月31日，组合权益类资产收益贡献1.42%（穿透后1.54%），资产收益率8.30%，同期上证指数收益率5.94%（万得），获得了2.36%（组合权益收益率-上证指数同期资产收益率）的超额收益。",
+            "textTreatment": "clean_only"
+          }
+        ],
+        "visualAssets": [
+          {
+            "relativePath": "python_table/组合业绩归因_block_03_composition_chart.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合业绩归因_block_03_composition_chart.png",
+            "assetRoot": "python_table",
+            "exists": true
+          },
+          {
+            "relativePath": "python_table/组合业绩归因_block_04_composition_chart.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合业绩归因_block_04_composition_chart.png",
+            "assetRoot": "python_table",
+            "exists": true
+          }
+        ],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "summary_plus_two_visuals",
+        "density": {
+          "compact": true,
+          "visualCount": 2,
+          "deferredVisualCount": 0,
+          "bulletCount": 3,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 6,
+      "slideId": "s006",
+      "role": "content",
+      "title": "组合资产配置",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "组合资产配置",
+        "groupId": "组合资产配置",
+        "markdown": "sheet-md-assets/组合资产配置.md",
+        "contentBlocks": [
+          "组合资产配置_block_01"
+        ],
+        "bullets": [
+          {
+            "sourceText": "资产配置方面，截至2023年3月31日，组合流动性资产占比7.38%（穿透后7.90%）；固定收益类资产占比84.27%（穿透后84.08%），其中成本计价资产占比22.98%（穿透后28.09%），市值计价资产占比61.29%（穿透后55.99%），平均久期1.43年（穿透后1.45年）；权益类资产占比16.18%（穿透后17.05%），对冲后的权益仓位16.18%（穿透后17.05%）；组合总体上杠杆率107.83%（穿透后109.05%）。备注：久期为组合中的债券久期，与指标_事后风险_组合层面的久期口径一致。",
+            "displayText": "资产配置方面，截至2023年3月31日，组合流动性资产占比7.38%（穿透后7.90%）；权益类资产占比16.18%（穿透后17.05%），对冲后的权益仓位16.18%（穿透后17.05%）。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "本时间区间持有国泰金色年华固定收益型养老金产品，国泰金色年华混合型养老金产品，国泰佳泰股票专项型养老金产品，国泰金色年华货币型养老金产品，期末持仓分别为8.98%，4.10%，1.58%，0.67%，本年以来贡献分别为0.14%，0.15%，0.15%，0.01%，本月以来贡献分别为0.05%，0.01%，-0.00%，0.00%。",
+            "displayText": "本时间区间持有国泰金色年华固定收益型养老金产品，国泰金色年华混合型养老金产品，国泰佳泰股票专项型养老金产品，国泰金色年华货币型养老金产品，期末持仓分别为8.98%，4.10%，1.58%，0.67%，本年以来贡献分别为0.14%",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "国泰金色年华固定收益型养老金产品今年以来收益率1.38%，本月以来收益率0.54%。上月是半年末，资金面趋紧，资金利率上行，债券市场小幅调整，同时权益市场波动以及机构可能出于半年末兑现利润等动机，固收+和纯债基金都连续遭遇了大额赎回，普信债和银行二永债调整幅度相对更大。月末最后一周，央行开始净投放资金，且隔夜回购利率低于市场预期，资金面预期转松，资金利率下行，债市收益率逐渐下行。操作上，主要是逢调整加仓了3-5年信用债，聚焦银行永续、央国企永续等具有品种溢价的优质信用主体，继续卖出部分资质相对偏弱或者久期偏长的私募债，调整持仓结构，降低信用风险，提升组合流动性和灵活性。转债性价仍然较弱且波动不小，整体仍以控制仓位为主。",
+            "displayText": "国泰金色年华固定收益型养老金产品今年以来收益率1.38%，本月以来收益率0.54%。月末最后一周，央行开始净投放资金，且隔夜回购利率低于市场预期，资金面预期转松，资金利率下行，债市收益率逐渐下行。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "国泰金色年华混合型养老金产品今年以来收益率3.53%，本月以来收益率0.22%。组合内部做高低切换调整，增持医药生物、基础化工、家用电器，减持电子、公用事业、电力设备。, 国泰金色年华混合型养老金产品今年以来收益率3.53%，本月以来收益率0.22%。上月是半年末，资金面趋紧，资金利率上行，债券市场小幅调整，同时权益市场波动以及机构可能出于半年末兑现利润等动机，固收+和纯债基金都连续遭遇了大额赎回，普信债和银行二永债调整幅度相对更大。月末最后一周，央行开始净投放资金，且隔夜回购利率低于市场预期，资金面预期转松，资金利率下行，债市收益率逐渐下行。操作上，主要是逢调整加仓了3-5年信用债，聚焦银行永续、央国企永续等具有品种溢价的优质信用主体，继续卖出部分资质相对偏弱或者久期偏长的私募债，调整持仓结构，降低信用风险，提升组合流动性和灵活性。转债性价仍然较弱且波动不小，整体仍以控制仓位为主。",
+            "displayText": "国泰金色年华混合型养老金产品今年以来收益率3.53%，本月以来收益率0.22%。组合内部做高低切换调整，增持医药生物、基础化工、家用电器，减持电子、公用事业、电力设备。转债性价仍然较弱且波动不小，整体仍以控制仓位为主。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "国泰佳泰股票专项型养老金产品今年以来收益率9.77%，本月以来收益率-0.24%。组合内部做高低切换调整，增持医药生物、基础化工、家用电器，减持电子、公用事业、电力设备。",
+            "displayText": "国泰佳泰股票专项型养老金产品今年以来收益率9.77%，本月以来收益率-0.24%。组合内部做高低切换调整，增持医药生物、基础化工、家用电器，减持电子、公用事业、电力设备。",
+            "textTreatment": "clean_and_compact"
+          }
+        ],
+        "visualAssets": [
+          {
+            "relativePath": "picture-assets/组合资产配置_image_01.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合资产配置_image_01.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          },
+          {
+            "relativePath": "picture-assets/组合资产配置_image_02.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合资产配置_image_02.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          },
+          {
+            "relativePath": "python_table/组合资产配置_block_07_styled_table_image.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合资产配置_block_07_styled_table_image.png",
+            "assetRoot": "python_table",
+            "exists": true
+          }
+        ],
+        "deferredVisualAssets": [],
+        "deferredBullets": [
+          {
+            "sourceText": "国泰金色年华货币型养老金产品今年以来收益率0.73%，本月以来收益率0.25%。",
+            "displayText": "国泰金色年华货币型养老金产品今年以来收益率0.73%，本月以来收益率0.25%。",
+            "textTreatment": "clean_and_compact"
+          }
+        ]
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "summary_plus_three_visuals",
+        "density": {
+          "compact": true,
+          "visualCount": 3,
+          "deferredVisualCount": 0,
+          "bulletCount": 5,
+          "deferredBulletCount": 1,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 7,
+      "slideId": "s007",
+      "role": "content",
+      "title": "今年以来资产配置回顾",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "今年以来资产配置回顾",
+        "groupId": "今年以来资产配置回顾",
+        "markdown": "sheet-md-assets/今年以来资产配置回顾.md",
+        "contentBlocks": [
+          "今年以来资产配置回顾_block_01"
+        ],
+        "bullets": [
+          {
+            "sourceText": "持仓变动，穿透来看",
+            "displayText": "持仓变动，穿透来看",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "组合初始权益类资产仓位约15.65%，报告期间在【15.65%，19.30%】波动，期末收于17.05%",
+            "displayText": "组合初始权益类资产仓位约15.65%，报告期间在【15.65%，19.30%】波动，期末收于17.05%",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "组合初始市值类固收资产仓位约59.20%，报告期间在【55.99%，63.38%】波动，期末收于55.99%",
+            "displayText": "组合初始市值类固收资产仓位约59.20%，报告期间在【55.99%，63.38%】波动，期末收于55.99%",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "组合初始成本类固收资产仓位约29.51%，报告期间在【27.73%，30.47%】波动，期末收于28.09%",
+            "displayText": "组合初始成本类固收资产仓位约29.51%，报告期间在【27.73%，30.47%】波动，期末收于28.09%",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "组合初始流动性资产资产仓位约7.87%，报告期间在【5.42%，9.95%】波动，期末收于7.90%",
+            "displayText": "组合初始流动性资产资产仓位约7.87%，报告期间在【5.42%，9.95%】波动，期末收于7.90%",
+            "textTreatment": "clean_and_compact"
+          }
+        ],
+        "visualAssets": [
+          {
+            "relativePath": "picture-assets/今年以来资产配置回顾_image_01.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\今年以来资产配置回顾_image_01.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          },
+          {
+            "relativePath": "picture-assets/今年以来资产配置回顾_image_02.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\今年以来资产配置回顾_image_02.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          }
+        ],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "summary_plus_two_visuals",
+        "density": {
+          "compact": true,
+          "visualCount": 2,
+          "deferredVisualCount": 0,
+          "bulletCount": 5,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 8,
+      "slideId": "s008",
+      "role": "section",
+      "title": "投资操作回顾",
+      "template": {
+        "role": "section",
+        "sourceSlide": 3,
+        "pptLayoutName": "章节页",
+        "layoutTarget": "ppt/slideLayouts/slideLayout4.xml"
+      },
+      "content": {
+        "sectionIndex": "02",
+        "sectionTitle": "投资操作回顾"
+      },
+      "layoutHint": {
+        "editPolicy": "text_only_preserve_style"
+      }
+    },
+    {
+      "slideNumber": 9,
+      "slideId": "s009",
+      "role": "content",
+      "title": "组合固收投资回顾",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "组合固收投资回顾",
+        "groupId": "组合固收投资回顾",
+        "markdown": "sheet-md-assets/组合固收投资回顾.md",
+        "contentBlocks": [
+          "组合固收投资回顾_block_01"
+        ],
+        "bullets": [
+          {
+            "sourceText": "组合穿透后持仓债券久期为1.45年，穿透层面下杠杆比率109.05%。",
+            "displayText": "组合穿透后持仓债券久期为1.45年，穿透层面下杠杆比率109.05%。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "穿透后，成本计价类资产方面，主要以私募债（20.94%）和PPN（5.07%）为主",
+            "displayText": "穿透后，成本计价类资产方面，主要以私募债（20.94%）和PPN（5.07%）为主",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "穿透后，市值计价类资产方面，主要以中期票据（22.65%）和公司债（16.38%）为主",
+            "displayText": "穿透后，市值计价类资产方面，主要以中期票据（22.65%）和公司债（16.38%）为主",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "固收方面，组合以直接投资与配置国泰内部的国泰固收型和混合型养老金作为主要投资方式。产品期末主要持有国泰金色年华混合型养老金产品、国泰金色年华固定收益型养老金产品、国泰金色年华信托型养老金产品2期、国泰金色年华信托型养老金产品1期，占比合计14.77%，较期初占比下降1.96%，持仓产品今年同期收益率分别为3.53%、1.38%、1.09%、.98%，全市场排名11/135、85/545、256/545、378/545，年化收益率分别为12.99%、5.63%、4.48%、4.06%。直接持仓主要包括中期票据、公司债、私募债。主要增持私募债券，减持PPN；产品配置方面，无养老金增持，减持国泰金色年华固定收益型养老金产品。",
+            "displayText": "固收方面，组合以直接投资与配置国泰内部的国泰固收型和混合型养老金作为主要投资方式。直接持仓主要包括中期票据、公司债、私募债。主要增持私募债券，减持PPN；产品配置方面，无养老金增持，减持国泰金色年华固定收益型养老金产品。",
+            "textTreatment": "clean_and_compact"
+          }
+        ],
+        "visualAssets": [
+          {
+            "relativePath": "picture-assets/组合固收投资回顾_image_01.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_01.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          },
+          {
+            "relativePath": "picture-assets/组合固收投资回顾_image_02.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_02.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          }
+        ],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "summary_plus_two_visuals",
+        "density": {
+          "compact": true,
+          "visualCount": 2,
+          "deferredVisualCount": 0,
+          "bulletCount": 4,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 10,
+      "slideId": "s010",
+      "role": "content",
+      "title": "组合固收投资回顾（2）",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "组合固收投资回顾",
+        "groupId": "组合固收投资回顾",
+        "markdown": "sheet-md-assets/组合固收投资回顾.md",
+        "contentBlocks": [
+          "组合固收投资回顾_block_02"
+        ],
+        "bullets": [
+          {
+            "sourceText": "截至2023年03月31日，固收资产YTM为3.59%，其中市值类YTM3.51%，成本类YTM3.73%。久期为1.45，其中市值类久期1.34，成本类久期1.68。",
+            "displayText": "截至2023年03月31日，固收资产YTM为3.59%，其中市值类YTM3.51%，成本类YTM3.73%。久期为1.45，其中市值类久期1.34，成本类久期1.68。",
+            "textTreatment": "clean_only"
+          }
+        ],
+        "visualAssets": [
+          {
+            "relativePath": "picture-assets/组合固收投资回顾_image_04.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_04.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          },
+          {
+            "relativePath": "picture-assets/组合固收投资回顾_image_03.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_03.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          }
+        ],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "summary_plus_two_visuals",
+        "density": {
+          "compact": true,
+          "visualCount": 2,
+          "deferredVisualCount": 0,
+          "bulletCount": 1,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 11,
+      "slideId": "s011",
+      "role": "content",
+      "title": "组合固收投资回顾（3）",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "组合固收投资回顾",
+        "groupId": "组合固收投资回顾",
+        "markdown": "sheet-md-assets/组合固收投资回顾.md",
+        "contentBlocks": [
+          "组合固收投资回顾_block_03"
+        ],
+        "bullets": [
+          {
+            "sourceText": "截至2023年03月31日，组合信用债持仓为73.21%，其中AAA占比61.05%，AA+占比10.62%；久期方面，1年以内占比29.20%，1-3年以内占比47.18%，3年以上占比4.93%。",
+            "displayText": "截至2023年03月31日，组合信用债持仓为73.21%，其中AAA占比61.05%，AA+占比10.62%；久期方面，1年以内占比29.20%，1-3年以内占比47.18%，3年以上占比4.93%。",
+            "textTreatment": "clean_only"
+          }
+        ],
+        "visualAssets": [
+          {
+            "relativePath": "picture-assets/组合固收投资回顾_image_05.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_05.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          },
+          {
+            "relativePath": "picture-assets/组合固收投资回顾_image_06.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_06.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          }
+        ],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "summary_plus_two_visuals",
+        "density": {
+          "compact": true,
+          "visualCount": 2,
+          "deferredVisualCount": 0,
+          "bulletCount": 1,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 12,
+      "slideId": "s012",
+      "role": "content",
+      "title": "组合固收投资回顾（4）",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "组合固收投资回顾",
+        "groupId": "组合固收投资回顾",
+        "markdown": "sheet-md-assets/组合固收投资回顾.md",
+        "contentBlocks": [
+          "组合固收投资回顾_block_04"
+        ],
+        "bullets": [
+          {
+            "sourceText": "可转债方面，截至2023年3月31日，组合直接持仓可转债仓位2.73%，穿透养老金产品后可转债仓位3.15%。",
+            "displayText": "可转债方面，截至2023年3月31日，组合直接持仓可转债仓位2.73%，穿透养老金产品后可转债仓位3.15%。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "组合穿透后，持仓转债大盘占比2.28%，中盘占比0.57%，小盘占比0.01%。",
+            "displayText": "组合穿透后，持仓转债大盘占比2.28%，中盘占比0.57%，小盘占比0.01%。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "组合穿透后主要持有以下行业的可转债：金融、工业、日常消费品、公用事业、信息技术，增持金融、可选消费、信息技术，减持工业、日常消费品、公用事业，正贡献主要来自于日常消费品、工业、信息技术，负贡献主要来自于金融、医疗保健。",
+            "displayText": "组合穿透后主要持有以下行业的可转债：金融、工业、日常消费品、公用事业、信息技术，增持金融、可选消费、信息技术，减持工业、日常消费品、公用事业，正贡献主要来自于日常消费品、工业、信息技术，负贡献主要来自于金融、医疗保健。",
+            "textTreatment": "clean_and_compact"
+          }
+        ],
+        "visualAssets": [
+          {
+            "relativePath": "picture-assets/组合固收投资回顾_image_07.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_07.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "strongest_related_visual_for_text_block"
+          },
+          {
+            "relativePath": "picture-assets/组合固收投资回顾_image_08.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_08.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "strongest_related_visual_for_text_block"
+          },
+          {
+            "relativePath": "picture-assets/组合固收投资回顾_image_09.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_09.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "strongest_related_visual_for_text_block"
+          }
+        ],
+        "deferredVisualAssets": [
+          {
+            "relativePath": "python_table/组合固收投资回顾_block_11_styled_table_image.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合固收投资回顾_block_11_styled_table_image.png",
+            "assetRoot": "python_table",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "python_table/组合固收投资回顾_block_13_category_chart.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合固收投资回顾_block_13_category_chart.png",
+            "assetRoot": "python_table",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "picture-assets/组合固收投资回顾_image_10.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_10.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "picture-assets/组合固收投资回顾_image_11.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合固收投资回顾_image_11.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          }
+        ],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "summary_plus_three_visuals",
+        "density": {
+          "compact": true,
+          "visualCount": 3,
+          "deferredVisualCount": 4,
+          "bulletCount": 3,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 13,
+      "slideId": "s013",
+      "role": "content",
+      "title": "组合固收投资回顾（5）",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "组合固收投资回顾",
+        "groupId": "组合固收投资回顾",
+        "markdown": "sheet-md-assets/组合固收投资回顾.md",
+        "contentBlocks": [
+          "组合固收投资回顾_block_05"
+        ],
+        "bullets": [],
+        "visualAssets": [
+          {
+            "relativePath": "python_table/组合固收投资回顾_block_17_category_chart.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合固收投资回顾_block_17_category_chart.png",
+            "assetRoot": "python_table",
+            "exists": true
+          }
+        ],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "one_visual",
+        "density": {
+          "compact": true,
+          "visualCount": 1,
+          "deferredVisualCount": 0,
+          "bulletCount": 0,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 14,
+      "slideId": "s014",
+      "role": "content",
+      "title": "组合权益投资回顾",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "组合权益投资回顾",
+        "groupId": "组合权益投资回顾",
+        "markdown": "sheet-md-assets/组合权益投资回顾.md",
+        "contentBlocks": [
+          "组合权益投资回顾_block_01"
+        ],
+        "bullets": [
+          {
+            "sourceText": "权益方面，组合投资以（直接持股为主，养老金产品配置作为补充）。期末产品持仓占比1.58%，直接持股占比12.45%。",
+            "displayText": "权益方面，组合投资以（直接持股为主，养老金产品配置作为补充）。期末产品持仓占比1.58%，直接持股占比12.45%。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "养老金产品方面，组合主要持有：国泰佳泰股票专项型养老金产品，今年同期收益率分别为9.77%，全市场排名14/195。",
+            "displayText": "养老金产品方面，组合主要持有：国泰佳泰股票专项型养老金产品，今年同期收益率分别为9.77%，全市场排名14/195。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "组合穿透后主要持有计算机、电子、基础化工、医药生物、食品饮料，增持电子、银行、医药生物，减持石油石化、建筑装饰、机械设备，正贡献主要来自于计算机、电子、医药生物，负贡献主要来自于银行、基础化工、家用电器。",
+            "displayText": "组合穿透后主要持有计算机、电子、基础化工、医药生物、食品饮料，增持电子、银行、医药生物，减持石油石化、建筑装饰、机械设备，正贡献主要来自于计算机、电子、医药生物，负贡献主要来自于银行、基础化工、家用电器。",
+            "textTreatment": "clean_and_compact"
+          }
+        ],
+        "visualAssets": [
+          {
+            "relativePath": "picture-assets/组合权益投资回顾_image_01.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_01.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "strongest_related_visual_for_text_block"
+          },
+          {
+            "relativePath": "picture-assets/组合权益投资回顾_image_02.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_02.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "strongest_related_visual_for_text_block"
+          },
+          {
+            "relativePath": "picture-assets/组合权益投资回顾_image_03.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_03.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "strongest_related_visual_for_text_block"
+          }
+        ],
+        "deferredVisualAssets": [
+          {
+            "relativePath": "picture-assets/组合权益投资回顾_image_04.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_04.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "python_table/组合权益投资回顾_block_06_category_chart.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合权益投资回顾_block_06_category_chart.png",
+            "assetRoot": "python_table",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "picture-assets/组合权益投资回顾_image_05.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_05.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "picture-assets/组合权益投资回顾_image_06.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_06.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "picture-assets/组合权益投资回顾_image_07.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_07.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "picture-assets/组合权益投资回顾_image_08.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_08.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          }
+        ],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "summary_plus_three_visuals",
+        "density": {
+          "compact": true,
+          "visualCount": 3,
+          "deferredVisualCount": 6,
+          "bulletCount": 3,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 15,
+      "slideId": "s015",
+      "role": "content",
+      "title": "组合权益投资回顾（2）",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "组合权益投资回顾",
+        "groupId": "组合权益投资回顾",
+        "markdown": "sheet-md-assets/组合权益投资回顾.md",
+        "contentBlocks": [
+          "组合权益投资回顾_block_02"
+        ],
+        "bullets": [
+          {
+            "sourceText": "截至2023年03月31日，组合股票持仓为14.89%，其中大盘占比6.57%，中盘占比5.26%，小盘占比3.06%；板块分布方面，主板占比11.50%，创业板占比1.99%。",
+            "displayText": "截至2023年03月31日，组合股票持仓为14.89%，其中大盘占比6.57%，中盘占比5.26%，小盘占比3.06%；板块分布方面，主板占比11.50%，创业板占比1.99%。",
+            "textTreatment": "clean_and_compact"
+          }
+        ],
+        "visualAssets": [
+          {
+            "relativePath": "picture-assets/组合权益投资回顾_image_09.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_09.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          },
+          {
+            "relativePath": "picture-assets/组合权益投资回顾_image_10.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\组合权益投资回顾_image_10.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          },
+          {
+            "relativePath": "python_table/组合权益投资回顾_block_14_styled_table_image.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合权益投资回顾_block_14_styled_table_image.png",
+            "assetRoot": "python_table",
+            "exists": true
+          }
+        ],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "summary_plus_three_visuals",
+        "density": {
+          "compact": true,
+          "visualCount": 3,
+          "deferredVisualCount": 0,
+          "bulletCount": 1,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 16,
+      "slideId": "s016",
+      "role": "content",
+      "title": "组合权益投资回顾（3）",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "组合权益投资回顾",
+        "groupId": "组合权益投资回顾",
+        "markdown": "sheet-md-assets/组合权益投资回顾.md",
+        "contentBlocks": [
+          "组合权益投资回顾_block_03"
+        ],
+        "bullets": [],
+        "visualAssets": [
+          {
+            "relativePath": "python_table/组合权益投资回顾_block_16_composition_chart_p01.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合权益投资回顾_block_16_composition_chart_p01.png",
+            "assetRoot": "python_table",
+            "exists": true
+          },
+          {
+            "relativePath": "python_table/组合权益投资回顾_block_16_composition_chart_p02.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合权益投资回顾_block_16_composition_chart_p02.png",
+            "assetRoot": "python_table",
+            "exists": true
+          }
+        ],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "two_visuals_grid",
+        "density": {
+          "compact": true,
+          "visualCount": 2,
+          "deferredVisualCount": 0,
+          "bulletCount": 0,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 17,
+      "slideId": "s017",
+      "role": "section",
+      "title": "下阶段市场研判及组合操作策略",
+      "template": {
+        "role": "section",
+        "sourceSlide": 3,
+        "pptLayoutName": "章节页",
+        "layoutTarget": "ppt/slideLayouts/slideLayout4.xml"
+      },
+      "content": {
+        "sectionIndex": "03",
+        "sectionTitle": "下阶段市场研判及组合操作策略"
+      },
+      "layoutHint": {
+        "editPolicy": "text_only_preserve_style"
+      }
+    },
+    {
+      "slideNumber": 18,
+      "slideId": "s018",
+      "role": "content",
+      "title": "市场回顾",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "市场回顾",
+        "groupId": "市场回顾",
+        "markdown": "sheet-md-assets/市场回顾.md",
+        "contentBlocks": [
+          "市场回顾_block_01"
+        ],
+        "bullets": [
+          {
+            "sourceText": "权益方面，2023年1月1日-2023年3月31日，wind全A、上证指数、深证成指、沪深300、上证50、中证500、中证1000、创业板指、科创50的表现分别为6.47%、5.94%、6.45%、4.63%、1.01%、8.11%、9.46%、2.25%、12.67%。上涨股票3505家，下跌股票1419家，全部A股的中位数涨幅6.81%。",
+            "displayText": "上涨股票3505家，下跌股票1419家，全部A股的中位数涨幅6.81%。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "板块方面，31个申万一级行业算数平均收益率为6.15%。计算机、传媒、通信、电子、建筑装饰表现较好，分别为36.79%、34.24%、29.51%、15.50%、11.19%，综合、美容护理、银行、商贸零售、房地产表现较弱，分别为-1.11%、-1.63%、-2.70%、-5.11%、-6.11%。",
+            "displayText": "板块方面，31个申万一级行业算数平均收益率为6.15%。",
+            "textTreatment": "clean_and_compact"
+          }
+        ],
+        "visualAssets": [
+          {
+            "relativePath": "picture-assets/市场回顾_image_01.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_01.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          },
+          {
+            "relativePath": "picture-assets/市场回顾_image_02.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_02.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          },
+          {
+            "relativePath": "picture-assets/市场回顾_image_03.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_03.png",
+            "assetRoot": "picture-assets",
+            "exists": true
+          }
+        ],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "summary_plus_three_visuals",
+        "density": {
+          "compact": true,
+          "visualCount": 3,
+          "deferredVisualCount": 0,
+          "bulletCount": 2,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 19,
+      "slideId": "s019",
+      "role": "content",
+      "title": "市场回顾（2）",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "市场回顾",
+        "groupId": "市场回顾",
+        "markdown": "sheet-md-assets/市场回顾.md",
+        "contentBlocks": [
+          "市场回顾_block_02"
+        ],
+        "bullets": [
+          {
+            "sourceText": "固收方面，2023年1月1日-2023年3月31日。1年期、3年期、5年期、10年期和30年期国债的区间收益率变化（BP）分别上行14BP、上行10BP、上行4BP、上行2BP、上行4BP ,收益率分别为2.23%、2.51%、2.68%、2.85%、3.23%。信用债方面，截至期末，3年期AAA、AA评级中期票据收益率分别为0.00%和0.00%，较期初上行0BP和0BP；等级利差走阔0BP；3年期AAA级中期票据与同期限国债的信用利差走阔10BP。转债方面，中证转债区间涨幅为3.53%。",
+            "displayText": "固收方面，2023年1月1日-2023年3月31日。信用债方面，截至期末，3年期AAA、AA评级中期票据收益率分别为0.00%和0.00%，较期初上行0BP和0BP；等级利差走阔0BP；转债方面，中证转债区间涨幅为3.53%。",
+            "textTreatment": "clean_and_compact"
+          }
+        ],
+        "visualAssets": [
+          {
+            "relativePath": "picture-assets/市场回顾_image_04.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_04.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "strongest_related_visual_for_text_block"
+          },
+          {
+            "relativePath": "picture-assets/市场回顾_image_05.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_05.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "strongest_related_visual_for_text_block"
+          },
+          {
+            "relativePath": "picture-assets/市场回顾_image_06.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_06.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "strongest_related_visual_for_text_block"
+          }
+        ],
+        "deferredVisualAssets": [
+          {
+            "relativePath": "picture-assets/市场回顾_image_07.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_07.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "picture-assets/市场回顾_image_08.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_08.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          },
+          {
+            "relativePath": "picture-assets/市场回顾_image_09.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\picture-assets\\市场回顾_image_09.png",
+            "assetRoot": "picture-assets",
+            "exists": true,
+            "selectionReason": "deferred_overflow_from_text_visual_block"
+          }
+        ],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "summary_plus_three_visuals",
+        "density": {
+          "compact": true,
+          "visualCount": 3,
+          "deferredVisualCount": 3,
+          "bulletCount": 1,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 20,
+      "slideId": "s020",
+      "role": "content",
+      "title": "投资策略",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "投资策略",
+        "groupId": "投资策略",
+        "markdown": "sheet-md-assets/投资策略.md",
+        "contentBlocks": [
+          "投资策略_block_01"
+        ],
+        "bullets": [
+          {
+            "sourceText": "1 固收 张倩 1 总观点 短端品种偏谨慎，长端品种视供给情况进行波段操作。转债部分部分低价品种适当布局。 6月债券市场呈现\"先上后下、窄幅震荡、资金主导\"的特征。月初，受4-5月资金宽松和基本面偏弱推动，10年国债收益率一度触及1.70%的年内低位，做多情绪过热。央行连续通过公开市场零投放、买断式逆回购缩量续作等操作矫正市场超宽松的预期，资金价格快速上行，10年国债收益率回升至1.74%-1.75%附近。月中后，央行态度转向呵护，加大投放力度稳定市场预期，利率重回下行。月末央行公布即将启用隔夜逆回购工具，且mlf超额续做、权益市场回调等影响，10年国债再次贴近1.7。信用债收益率也是先上后下，重回低位。6月份在市场回调期间补充部分信用债仓位。转债部分，受到权益机构极致分化的影响，部分低价品种跌幅明显，转债指数波动明显，逢低增加部分转债etf的仓位。 - 展望7月，市场预计仍处于震荡偏弱行情。6月份PMI超季节性回升，但结构仍然分化明显。资金面可能较前期有一定收紧。虽然央行6月末隔夜逆回购利率定价低于市场预期，但月初的大幅净回笼再次带动资金面的收紧。短期看，10年国债1.7较难突破，中枢回到1.75附近。且三季度供给较二季度可能有较明显的增加，期限利差继续维持。 202607 2026-07-02",
+            "displayText": "固收总观点：短端品种偏谨慎，长端品种视供给情况进行波段操作。转债部分低价品种适当布局。6月债券市场呈现\"先上后下、窄幅震荡、资金主导\"的特征。月中后，央行态度转向呵护，加大投放力度稳定市场预期，利率重回下行。资金面可能较前期有一定收紧。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "2 权益 胡松 1 总观点 布局方向上，由于当前市场交易结构较为极致，且经济复苏势头震荡，我们继续建议在在结构上主动降波，看好AI硬件、新能源、工业金属、化工、非银。 - 展望国内，经济复苏仍处于早期，且经济K型分化特征进一步加大，虽然AI新经济继续高举高打，但传统经济却陷入滞胀隐忧。一方面，美伊冲突导致上游价格快速上涨，成本飙升下制造业投资、生产、居民消费均出现不同程度的回落。另一方面，国内逆周期政策力度放缓，地方政府促投资和促消费力度减弱。伴随6月美伊进入停战谈判期，我们预期经济能够保持温和修复，制造业中游的景气预期会更为明朗。",
+            "displayText": "权益总观点：布局方向上，由于当前市场交易结构较为极致，且经济复苏势头震荡，我们继续建议在结构上主动降波，看好AI硬件、新能源、工业金属、化工、非银。另一方面，国内逆周期政策力度放缓，地方政府促投资和促消费力度减弱。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "展望海外，美伊冲突缓和，美国经济“空中加油”，全球央行“降息潮”基本结束。美国经济增长在AI技术革命、财政补贴前置、全球产业链重构的基础上保持韧性超预期。但全球央行的宽松空间正在收敛。沃什新上任美联储主席，货币政策态度偏鹰，同时其不做前瞻指引的表态，让市场更为担心美元流动性。",
+            "displayText": "展望海外，美伊冲突缓和，美国经济“空中加油”，全球央行“降息潮”基本结束。美国经济增长在AI技术革命、财政补贴前置、全球产业链重构的基础上保持韧性超预期。但全球央行的宽松空间正在收敛。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "估值上看，虽然A股的股票资产性价比依然处于中位数水平，但半导体板块估值扩张程度达历史绝对高位。目前股债比处于95%分位数，万得全A股权风险溢价处于44%分位数。但半导体板块整体PB接近15x， 处于历史分位的100%。",
+            "displayText": "估值上看，虽然A股的股票资产性价比依然处于中位数水平，但半导体板块估值扩张程度达历史绝对高位。目前股债比处于95%分位数，万得全A股权风险溢价处于44%分位数。但半导体板块整体PB接近15x， 处于历史分位的100%。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "经济正进入新周期，我们中期继续看好市场。但考虑到市场行情和估值极端分化，同时7月进入业绩验证期，我们建议短期适度降仓，暂作观望，等待风格平衡时机。 202607 2026-07-02",
+            "displayText": "经济正进入新周期，我们中期继续看好市场。但考虑到市场行情和估值极端分化，同时7月进入业绩验证期，我们建议短期适度降仓，暂作观望，等待风格平衡时机。",
+            "textTreatment": "clean_and_compact"
+          }
+        ],
+        "visualAssets": [],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "text_only_compact",
+        "density": {
+          "compact": true,
+          "visualCount": 0,
+          "deferredVisualCount": 0,
+          "bulletCount": 5,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 21,
+      "slideId": "s021",
+      "role": "content",
+      "title": "投资策略（2）",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "投资策略",
+        "groupId": "投资策略",
+        "markdown": "sheet-md-assets/投资策略.md",
+        "contentBlocks": [
+          "投资策略_block_01"
+        ],
+        "bullets": [
+          {
+            "sourceText": "2 权益 胡松 2 AI板块 分散配置光模块/PCB/服务器/燃气轮机等龙头，降低高估值二三线敞口，耐心等布局点。 - - - 202607 2026-07-02",
+            "displayText": "权益AI板块观点：分散配置光模块/PCB/服务器/燃气轮机等龙头，降低高估值二三线敞口，耐心等布局点。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "2 权益 胡松 3 红利 在市场结构化行情趋于极致的情况下，也建议可以考虑低估值因子的保险、券商以及小仓位的红利来降波。 - - - 202607 2026-07-02",
+            "displayText": "权益红利观点：在市场结构化行情趋于极致的情况下，也建议可以考虑低估值因子的保险、券商以及小仓位的红利来降波。",
+            "textTreatment": "clean_and_compact"
+          },
+          {
+            "sourceText": "2 权益 胡松 4 周期 在经济结构性复苏、制造业中上游率先进入新周期的背景下，新能源、有色、化工是后续能够受益于制造业供应链修复的行业。 - - - 202607 2026-07-02",
+            "displayText": "权益周期观点：在经济结构性复苏、制造业中上游率先进入新周期的背景下，新能源、有色、化工是后续能够受益于制造业供应链修复的行业。",
+            "textTreatment": "clean_and_compact"
+          }
+        ],
+        "visualAssets": [],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "text_only_compact",
+        "density": {
+          "compact": true,
+          "visualCount": 0,
+          "deferredVisualCount": 0,
+          "bulletCount": 3,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 22,
+      "slideId": "s022",
+      "role": "section",
+      "title": "补充数据图表",
+      "template": {
+        "role": "section",
+        "sourceSlide": 3,
+        "pptLayoutName": "章节页",
+        "layoutTarget": "ppt/slideLayouts/slideLayout4.xml"
+      },
+      "content": {
+        "sectionIndex": "04",
+        "sectionTitle": "补充数据图表"
+      },
+      "layoutHint": {
+        "editPolicy": "text_only_preserve_style"
+      }
+    },
+    {
+      "slideNumber": 23,
+      "slideId": "s023",
+      "role": "content",
+      "title": "养老金产品时序图_数据",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "养老金产品时序图_数据",
+        "groupId": "养老金产品时序图_数据",
+        "markdown": "sheet-md-assets/养老金产品时序图_数据.md",
+        "contentBlocks": [
+          "养老金产品时序图_数据_block_01"
+        ],
+        "bullets": [],
+        "visualAssets": [
+          {
+            "relativePath": "python_table/养老金产品时序图_数据_block_01_trend_chart.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\养老金产品时序图_数据_block_01_trend_chart.png",
+            "assetRoot": "python_table",
+            "exists": true
+          }
+        ],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "one_visual",
+        "density": {
+          "compact": true,
+          "visualCount": 1,
+          "deferredVisualCount": 0,
+          "bulletCount": 0,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 24,
+      "slideId": "s024",
+      "role": "content",
+      "title": "组合可转债仓位变动情况（穿透后）_数据",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "组合可转债仓位变动情况（穿透后）_数据",
+        "groupId": "组合可转债仓位变动情况_穿透后_数据",
+        "markdown": "sheet-md-assets/组合可转债仓位变动情况_穿透后_数据.md",
+        "contentBlocks": [
+          "组合可转债仓位变动情况_穿透后_数据_block_01"
+        ],
+        "bullets": [],
+        "visualAssets": [
+          {
+            "relativePath": "python_table/组合可转债仓位变动情况_穿透后_数据_block_01_trend_chart.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\组合可转债仓位变动情况_穿透后_数据_block_01_trend_chart.png",
+            "assetRoot": "python_table",
+            "exists": true
+          }
+        ],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "one_visual",
+        "density": {
+          "compact": true,
+          "visualCount": 1,
+          "deferredVisualCount": 0,
+          "bulletCount": 0,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 25,
+      "slideId": "s025",
+      "role": "content",
+      "title": "可转债正股行业时序图(不穿透)_数据",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "可转债正股行业时序图(不穿透)_数据",
+        "groupId": "可转债正股行业时序图_不穿透_数据",
+        "markdown": "sheet-md-assets/可转债正股行业时序图_不穿透_数据.md",
+        "contentBlocks": [
+          "可转债正股行业时序图_不穿透_数据_block_01"
+        ],
+        "bullets": [],
+        "visualAssets": [
+          {
+            "relativePath": "python_table/可转债正股行业时序图_不穿透_数据_block_01_category_chart.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\可转债正股行业时序图_不穿透_数据_block_01_category_chart.png",
+            "assetRoot": "python_table",
+            "exists": true
+          }
+        ],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "one_visual",
+        "density": {
+          "compact": true,
+          "visualCount": 1,
+          "deferredVisualCount": 0,
+          "bulletCount": 0,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 26,
+      "slideId": "s026",
+      "role": "content",
+      "title": "可转债正股行业时序图(穿透)_数据",
+      "template": {
+        "role": "content",
+        "sourceSlide": 4,
+        "pptLayoutName": "重要观点1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout8.xml"
+      },
+      "content": {
+        "sheet": "可转债正股行业时序图(穿透)_数据",
+        "groupId": "可转债正股行业时序图_穿透_数据",
+        "markdown": "sheet-md-assets/可转债正股行业时序图_穿透_数据.md",
+        "contentBlocks": [
+          "可转债正股行业时序图_穿透_数据_block_01"
+        ],
+        "bullets": [],
+        "visualAssets": [
+          {
+            "relativePath": "python_table/可转债正股行业时序图_穿透_数据_block_01_category_chart_p01.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\可转债正股行业时序图_穿透_数据_block_01_category_chart_p01.png",
+            "assetRoot": "python_table",
+            "exists": true
+          },
+          {
+            "relativePath": "python_table/可转债正股行业时序图_穿透_数据_block_01_category_chart_p02.png",
+            "absolutePath": "C:\\Users\\xiaojian\\Desktop\\excel-ppt\\ppt-template-generator\\projects\\intake_20260706\\python_table\\可转债正股行业时序图_穿透_数据_block_01_category_chart_p02.png",
+            "assetRoot": "python_table",
+            "exists": true
+          }
+        ],
+        "deferredVisualAssets": [],
+        "deferredBullets": []
+      },
+      "layoutHint": {
+        "editPolicy": "semi_free_inside_content_zone",
+        "arrangement": "two_visuals_grid",
+        "density": {
+          "compact": true,
+          "visualCount": 2,
+          "deferredVisualCount": 0,
+          "bulletCount": 0,
+          "deferredBulletCount": 0,
+          "contentBlockCount": 1
+        },
+        "preserveTemplateChrome": true,
+        "maxVisualsPerSlide": 3,
+        "maxBulletsPerSlide": 5
+      }
+    },
+    {
+      "slideNumber": 27,
+      "slideId": "s027",
+      "role": "closing",
+      "title": "封底",
+      "template": {
+        "role": "closing",
+        "sourceSlide": 18,
+        "pptLayoutName": "封底1",
+        "layoutTarget": "ppt/slideLayouts/slideLayout10.xml"
+      },
+      "content": {
+        "leaveUnchanged": true
+      },
+      "layoutHint": {
+        "editPolicy": "leave_unchanged"
+      }
+    }
+  ]
+}
